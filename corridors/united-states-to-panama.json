@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-panama",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "PA",
+    "name": "Panama"
+  },
+  "ruleset": {
+    "name": "Panama (MIDA / DINASA)",
+    "stem": "pa_mida"
+  },
+  "tier": "qualified",
+  "tier_label": "Qualified",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": [
+    "dog",
+    "cat"
+  ],
+  "last_reviewed": "2026-07-07",
+  "recommended_lead_time_days": 45,
+  "source_url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-panama",
+  "verified_scope_note": "Covers personal, non-commercial travel from the United States to Panama for dogs and cats. USDA APHIS endorsement of the certificate, its consular or apostille legalization, and the MIDA and MINSA documentation check and inspection on arrival at Tocumen are decided outside Petra.",
+  "related_destination_note": null,
+  "caveats": [
+    {
+      "key": "arrival_inspection",
+      "text": "Panama's MIDA and MINSA officers perform the documentation check and veterinary inspection when you arrive at Tocumen International Airport (PTY); Petra cannot pre-clear this step."
+    }
+  ],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "severity": "recommended",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine adenovirus / hepatitis vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parainfluenza",
+      "title": "Canine parainfluenza vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "leptospirosis",
+      "title": "Leptospirosis vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline herpesvirus (FVR) vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "pa_health_certificate",
+      "title": "Panama international health certificate (APHIS-endorsed + legalized)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Email MINSA the Home Quarantine Request / Solicitud de Ingreso (cam@minsa.gob.pa)",
+      "detail": "Sent 3 to 5 business days before arrival to cam@minsa.gob.pa (MINSA Departamento de Control de Zoonosis). Mandatory: include the arrival flight/date/time, a scanned copy of the APHIS-endorsed health certificate, and the vaccination record (cartilla de vacunación). Without it the pet may be held at Tocumen until MINSA processes it.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Internal + external parasite treatment before shipment",
+      "detail": "A licensed vet administers and records internal and external antiparasitic treatment before export, declared on the certificate. Petra has no separate evidence model for this treatment; confirm it from the certificate before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Pet at least 4 months old; first rabies dose ≥30 days before arrival",
+      "detail": "Panama requires rabies vaccination from 3 months of age with at least 30 days elapsed since the FIRST dose, so animals under about 4 months of age are not allowed into the country. The engine does not model age or first-vs-booster dose, so confirm the age and first-dose timing before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Legalize the APHIS-endorsed certificate (consular stamp or apostille, within 30 days)",
+      "detail": "After APHIS endorsement, the certificate is legalized for Panama EITHER by a Panamanian consulate stamp/signature OR by apostille (Cancillería, or the US Department of State Office of Authentications where no Panamanian consulate serves your state), within 30 days of issuance. This legalization is captured as the certificate's authentication step in Petra's external-document check; carry the original legalized certificate.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Plan the airline-validity window",
+      "detail": "Airlines and Panamanian authorities expect the APHIS endorsement and the 30-day legalization window to still be valid on the day of travel. Coordinate the endorsement, legalization and travel date so the certificate isn't too fresh OR too stale.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "On-arrival processing fees",
+      "detail": "MIDA and MINSA charge processing and veterinary-inspection fees per animal at Tocumen, typically payable in cash; a strict home quarantine, if required, carries an additional charge. Amounts change: confirm the current fees before travel and bring cash.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Home quarantine on arrival if required",
+      "detail": "MINSA may impose a home quarantine at the owner's Panama residence; duration and any strict-quarantine charge are set per-arrival. Plan accommodation accordingly: a Panama address is generally required for the Solicitud de Ingreso.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.minsa.gob.pa/sites/default/files/general/requisitos_mida_minsa_2026_nuevo.pdf",
+      "authority": "MIDA (Cuarentena Agropecuaria) + MINSA (Control de Zoonosis), Aeropuerto Internacional de Tocumen",
+      "page_title": "Requisitos para la introducción de animales menores al país (perros, gatos y hurones): actualizado Marzo 2026",
+      "retrieved_at": "2026-07-07",
+      "applies_to": "the competent destination authorities' entry requirements for dogs and cats",
+      "supporting_requirements": [
+        "export certificate legalized by apostille OR consular legalization within 30 days (§A.1)",
+        "dog core vaccines rabia/distemper/hepatitis/leptospirosis/parvovirus",
+        "cat core vaccines rabia/rinotraqueitis/calicivirus/panleucopenia",
+        "rabies from 3 months + 30 days for a first dose; adults within validity (Decreto Ejecutivo 305/2001)",
+        "internal + external parasite treatment before shipment",
+        "Solicitud de Ingreso emailed to MINSA cam@minsa.gob.pa 3-5 business days before arrival",
+        "arrival inspection at Tocumen"
+      ]
+    },
+    {
+      "url": "https://mida.gob.pa/requisitos-para-la-importacion-de-perros-y-gatos/",
+      "authority": "MIDA (Ministerio de Desarrollo Agropecuario)",
+      "page_title": "Requisitos para la importación de perros y gatos",
+      "retrieved_at": "2026-07-07",
+      "applies_to": "MIDA competent-authority page for dog/cat import",
+      "supporting_requirements": [
+        "dog vaccines rabia/distemper/parvovirus/leptospirosis/hepatitis",
+        "veterinary certificate of good health",
+        "no microchip requirement stated"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-panama",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Panama (Last Modified 2025-07-30)",
+      "retrieved_at": "2026-07-07",
+      "applies_to": "US-side process facts for US-origin dog/cat, non-commercial",
+      "supporting_requirements": [
+        "USDA-accredited vet issuance + APHIS endorsement",
+        "post-endorsement consular stamp OR apostille legalization",
+        "rabies from 3 months + 30 days; under 4 months not allowed",
+        "Home Quarantine Request emailed to MINSA cam@minsa.gob.pa"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-panama",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-panama.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

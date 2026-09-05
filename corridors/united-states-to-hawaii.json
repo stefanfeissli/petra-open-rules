@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-hawaii",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "HI",
+    "name": "Hawaii"
+  },
+  "ruleset": {
+    "name": "Hawaii (HDOA)",
+    "stem": "hi_doa"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 120,
+  "source_url": "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination (≥2 lifetime doses)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titer (OIE-FAVN)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "identity",
+      "title": "Identity attestation issued",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "CVI certifying statement: New World Screwworm freedom",
+      "detail": "All animals requiring a CVI (Certificate of Veterinary Inspection) for importation into Hawaii must have a certifying statement: \"All animals were inspected and found free of evidence of New World Screwworm infestation.\"",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Apply online via HIPOP",
+      "detail": "Submit your dog or cat's entry application online through HIPOP (https://hipop.ais.hawaii.gov/), with the required documents uploaded and the applicable fee paid by card, ahead of arrival — see the arrival-airport deadlines below.",
+      "required": true,
+      "url": "https://hipop.ais.hawaii.gov/",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Document deadline depends on your arrival airport",
+      "detail": "Landing at Honolulu: your HIPOP application and documents must be submitted no less than 10 days before your pet arrives in Hawai'i to qualify for the 5-Day-Or-Less or Airport Release programs (late submission means a higher fee — $244 instead of $185 for airport release, $130 instead of $98 for re-entry). Landing at Kona, Kahului, or Līhu'e (neighbor islands): submit 30 days or more ahead of your pet's planned arrival instead.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Two rabies vaccinations in the pet's lifetime",
+      "detail": "Hawaii requires original certificates for 2 rabies vaccinations in the pet's lifetime, the most recent given more than 30 days before arrival and still in-date. Each certificate must be signed in ink by a licensed veterinarian, and must list: vaccine name, lot or serial number, booster interval, vaccination date, and vaccine lot expiration date.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "OIE-FAVN titer timing: arrive 30 days–36 months after the lab receives the sample",
+      "detail": "The clock starts the day the approved lab RECEIVES the blood sample, not the draw or result date. Too early (under 30 days) or too late (over 36 months) means quarantine.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Health certificate within 14 days of arrival",
+      "detail": "A licensed vet must examine the pet and issue an ORIGINAL health certificate no more than 14 days before arrival — a photocopy is not acceptable. This is mandatory for the direct-release program.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Tick treatment within 14 days of arrival, recorded on the certificate",
+      "detail": "A tick treatment must be given within 14 days of arrival and recorded on the health certificate. Revolution® is NOT an acceptable product for this treatment.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://hdoa.hawaii.gov/ai/aqs/animal-quarantine-information-page/",
+      "authority": "Hawaii Department of Agriculture (HDOA), Animal Industry Division",
+      "page_title": "Animal Quarantine Information Page",
+      "retrieved_at": "2026-06-22",
+      "applies_to": "domestic (US-state) dog/cat import to Hawaii",
+      "supporting_requirements": [
+        "two lifetime rabies doses",
+        "OIE-FAVN titer 30 days-36 months post-lab-receipt",
+        "14-day health certificate",
+        "direct release program"
+      ]
+    },
+    {
+      "url": "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+      "authority": "Hawaii Department of Agriculture and Biosecurity (DAB), Animal Industry Division",
+      "page_title": "Animal Quarantine Information",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "domestic (US-state) dog/cat import to Hawaii",
+      "supporting_requirements": [
+        "\"All animals requiring a CVI for importation into Hawaii must have a certifying statement: 'All animals were inspected and found free of evidence of New World Screwworm infestation.'\"",
+        "HIPOP (https://hipop.ais.hawaii.gov/) — \"submit an entry application for their dog and cat online\", documents uploaded, fees by card",
+        "Honolulu: documents \"NO LESS THAN 10 DAYS BEFORE PET ARRIVES IN HAWAI'I TO QUALIFY FOR 5 DAY OR LESS or AIRPORT RELEASE\" (late fee $244 vs $185 airport release; $130 vs $98 re-entry)",
+        "Neighbor islands (Kona, Kahului, Līhu'e): \"30 days or more ahead of the planned arrival\""
+      ]
+    },
+    {
+      "url": "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+      "authority": "Hawaii Department of Agriculture and Biosecurity (DAB), Animal Industry Division",
+      "page_title": "Checklist 1 (06.13.2023)",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "domestic (US-state) dog/cat import to Hawaii — rabies certificate and health certificate requirements",
+      "supporting_requirements": [
+        "\"Original certificates for 2 rabies vaccinations (must be signed in ink by a licensed veterinarian.)\" — \"in ink\", not \"blue ink\" (owner ruling, 2026-09-04: the blue-ink rule is folklore and must not be encoded)",
+        "rabies certificates must list \"vaccine name, lot or serial number, booster interval, vaccination date and vaccine lot expiration date\"",
+        "health certificate \"done within 14 days of arrival\", original, \"photocopy not acceptable\"",
+        "tick treatment within 14 days recorded on the certificate, \"Revolution® is not acceptable\""
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-hawaii",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-hawaii.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

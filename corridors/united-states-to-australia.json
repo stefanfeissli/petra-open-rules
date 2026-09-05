@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-australia",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "AU",
+    "name": "Australia"
+  },
+  "ruleset": {
+    "name": "Australia (DAFF)",
+    "stem": "au_daff"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 200,
+  "source_url": "https://www.agriculture.gov.au/biosecurity-trade/cats-dogs",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid (on/after the microchip)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titre (RNATT ≥ 0.5 IU/mL)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "au_health_certificate",
+      "title": "Australia export health certificate (VEHCS, endorsed ≤5 days before export)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Plan 6–12 months ahead — Australia is strictest",
+      "detail": "Skipping any step means refusal or extended quarantine on arrival. Read DAFF's full instructions before booking anything.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Confirm your origin's DAFF Group classification",
+      "detail": "US is Group 3 — every step below applies. Group 1 (NZ/NF/CC/CX/HM) and Group 2 (rabies-free, e.g. UK/IE/JP) have lighter regimes.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Apply for the DAFF import permit",
+      "detail": "Apply online; the permit is valid ~12 months (or until the RNATT expires). Pets cannot board without it.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "180-day wait after the RNATT sample reaches the lab",
+      "detail": "The clock starts the day the blood sample is RECEIVED at the approved lab, not the draw date and not the result date. Book travel only after the wait is complete.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Identity verification BEFORE the RNATT to cut quarantine",
+      "detail": "Quarantine at Mickleham PEQ is a minimum of 30 days by default, reduced to a minimum of 10 days ONLY if a government vet verified the microchip identity BEFORE the RNATT blood sample. Do the identity check first.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Reserve a quarantine slot at Mickleham PEQ Facility (Melbourne)",
+      "detail": "Book early — slots fill weeks ahead. Plan for the 30-day default unless identity verification was completed before the RNATT. A confirmed reservation is mandatory before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Parasite treatment + pre-export inspection",
+      "detail": "External + internal parasite treatment per the DAFF schedule (isoxazolines are NOT accepted for the external on-contact requirement), and a pre-export inspection by a USDA-accredited vet, endorsed within 5 days of export.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.agriculture.gov.au/biosecurity-trade/cats-dogs/rabies-neutralising-antibody-titre-test",
+      "authority": "DAFF (Australia)",
+      "page_title": "Step-by-step guide to import cats and dogs (Group 3)",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin (Group 3) dog/cat import to Australia",
+      "supporting_requirements": [
+        "RNATT ≥0.5 IU/mL",
+        "180-day wait from lab receipt",
+        "import permit",
+        "Mickleham quarantine 30/10-day tiers",
+        "VEHCS export health certificate"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-australia",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Australia",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to Australia",
+      "supporting_requirements": [
+        "VEHCS Australia export health certificate + APHIS endorsement (not Form 7001)",
+        "RNATT",
+        "import permit"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-australia",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-australia.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

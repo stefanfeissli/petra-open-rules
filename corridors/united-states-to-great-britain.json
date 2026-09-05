@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-great-britain",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "GB",
+    "name": "Great Britain"
+  },
+  "ruleset": {
+    "name": "Great Britain",
+    "stem": "gb_pet_travel"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://www.gov.uk/bring-pet-to-great-britain",
+  "verified_scope_note": null,
+  "related_destination_note": "Travelling to Northern Ireland? It has separate entry requirements from Great Britain, not covered on this page.",
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "description": "The microchip must be implanted before, or on the same day as, the rabies vaccination used for travel.",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid (on/after the microchip)",
+      "phase": "do_now",
+      "description": "The rabies vaccination must be valid on the entry date; a first-time or lapsed dose adds a 21-day wait before it counts as valid for travel.",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "gb_health_certificate",
+      "title": "Great Britain pet health certificate (APHIS-endorsed)",
+      "phase": "final_visit",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "tapeworm",
+      "title": "Tapeworm treatment (Echinococcus), 24-120h before arrival",
+      "phase": "final_visit",
+      "scope_notes": [
+        "Applies to: dog",
+        "Waived when departing directly from: Finland, Ireland, Northern Ireland, Malta, Norway"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Travel within 5 days of your pet",
+      "detail": "For ordinary non-commercial travel, your pet must enter Great Britain within 5 days before or after you. Outside that window it counts as commercial import with stricter rules.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "APHIS endorsement within 10 days of arrival",
+      "detail": "USDA APHIS must endorse the health certificate, and the endorsement must be completed within 10 days of arrival in Great Britain. Build the APHIS turnaround into your timeline.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Sign the non-commercial declaration",
+      "detail": "You (or an authorised person travelling with your pet) sign this official GOV.UK form to confirm your pet will not be sold or transferred to a new owner in the UK.",
+      "required": true,
+      "url": "https://www.gov.uk/government/publications/pet-travel-declaration-for-the-non-commercial-movement-of-animals",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Approved route + manifest cargo",
+      "detail": "Enter via an approved air/sea/tunnel route. Pets flying normally travel as manifest cargo, not checked baggage or in the cabin (a UK-recognised assistance dog may be an exception — confirm with the airline AND the arrival airport before booking).",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Airline brachycephalic + breed restrictions",
+      "detail": "Some carriers refuse short-nosed breeds or certain dog breeds. Confirm with the airline at booking, not at the gate.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.gov.uk/bring-pet-to-great-britain/great-britain-pet-health-certificate",
+      "authority": "DEFRA / gov.uk",
+      "page_title": "Bringing your pet to GB: Great Britain pet health certificate",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat/ferret, non-commercial inbound to GB",
+      "supporting_requirements": [
+        "GB pet health certificate (not Form 7001)",
+        "official-vet signed",
+        "enter within 10 days of issue"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs",
+      "authority": "DEFRA / gov.uk",
+      "page_title": "Bringing your pet to GB: Tapeworm treatment for dogs",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "dogs only (cats/ferrets exempt)",
+      "supporting_requirements": [
+        "praziquantel/Echinococcus",
+        "24-120h before arrival",
+        "exact date+time on cert"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-united-kingdom-great-britain-england-scotland",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the US to the United Kingdom/Great Britain",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog, non-commercial export to GB",
+      "supporting_requirements": [
+        "GB pet health certificate completed by USDA-accredited vet + APHIS endorsement (NOT Form 7001)",
+        "microchip on/before rabies",
+        "21-day rabies wait (first/lapsed)"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-great-britain",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-great-britain.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

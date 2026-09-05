@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-united-arab-emirates",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "AE",
+    "name": "United Arab Emirates"
+  },
+  "ruleset": {
+    "name": "United Arab Emirates (MOCCAE)",
+    "stem": "ae_moccae"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 45,
+  "source_url": "https://www.moccae.gov.ae/en/services/customer/services.import-of-live-animals.aspx",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies_wait",
+      "title": "21-day wait after a primary or lapsed rabies vaccination",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titre (RNATT ≥ 0.5 IU/mL), ≤12 months before travel",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine infectious hepatitis (adenovirus) vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "leptospirosis",
+      "title": "Leptospirosis vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline rhinotracheitis (herpesvirus) vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "ae_health_certificate",
+      "title": "MOCCAE Model Veterinary Health Certificate (USDA-VS endorsed, ≤10 days)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Apply for the MOCCAE import permit",
+      "detail": "Online via the ministry portal before arrival. Pay the fee and keep the permit (copy presented on arrival). The permit is valid for 30 days — apply close enough to travel that it hasn't lapsed, but early enough to clear before departure. Pets fly as manifested cargo.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Animals must be at least 15 weeks old",
+      "detail": "Younger pets are refused. (This is 15 weeks, not 4 months — the rabies vaccination + 21-day titre timing pushes the practical minimum higher.)",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Parasite treatment within 14 days, recorded on the certificate",
+      "detail": "Internal + external parasite treatment within 14 days of travel, noted on the MOCCAE health certificate.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Annual import quota: max 2 pets",
+      "detail": "MOCCAE limits non-commercial pet imports to 2 animals per person per year.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Check the banned-breeds list",
+      "detail": "Pit-bull-type breeds and some others are refused entry to the UAE. Owner-side check before booking.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.moccae.gov.ae/en/services/customer/services.import-of-live-animals.aspx",
+      "authority": "MOCCAE (UAE)",
+      "page_title": "Import of live animals",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat import to the UAE",
+      "supporting_requirements": [
+        "MOCCAE import permit",
+        "RNATT ≥0.5 (drawn ≥21 days post-vax, ≤12 months pre-travel)",
+        "≥15 weeks old",
+        "10-day cert validity",
+        "14-day parasite treatment",
+        "annual quota 2 pets"
+      ]
+    },
+    {
+      "url": "http://web.archive.org/web/20260607015858/https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-united-arab-emirates",
+      "authority": "USDA APHIS (via Wayback Machine mirror — live aphis.usda.gov resets automated GETs on this exact URL)",
+      "page_title": "Pet Travel From the United States to United Arab Emirates",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to the UAE",
+      "supporting_requirements": [
+        "MOCCAE Model Veterinary Health Certificate + USDA-VS endorsement (not Form 7001)",
+        "RNATT titre",
+        "import permit valid 30 days (#1777 correction — was modeled as ~90)",
+        "21-day wait after a first-time or lapsed rabies vaccination (#1777 — now an automated gate, rabies_wait)"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-united-arab-emirates",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-united-arab-emirates.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

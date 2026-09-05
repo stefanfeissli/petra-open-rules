@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-canada",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "CA",
+    "name": "Canada"
+  },
+  "ruleset": {
+    "name": "Canada (CFIA)",
+    "stem": "ca_cfia"
+  },
+  "tier": "verified",
+  "tier_label": "Authoritative",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": [
+    "dog",
+    "cat"
+  ],
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://inspection.canada.ca/en/importing-food-plants-animals/pets/dogs",
+  "verified_scope_note": "Verified for personal, non-commercial travel from the United States to Canada (dogs and cats).",
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "severity": "recommended",
+      "description": "A microchip is recommended but NOT required by CFIA for a personal pet entering Canada.",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid (certificate in English or French)",
+      "description": "A rabies vaccination is required for animals 3 months and older, on a vet certificate in English or French — no APHIS endorsement is needed for Canada.",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Confirm this is a non-commercial, privately owned pet movement",
+      "detail": "Age, accompaniment, number of dogs, purpose, and ownership-transfer status can change the applicable requirements. Commercial imports (sale, adoption, breeding, retail; ownership transfer) and unaccompanied/multi-dog movements trigger CFIA permits, age minimums, and additional paperwork. Dogs over 8 months generally use the rabies-certificate route.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Health certificate may be required: unaccompanied or 3+ dogs 8 months old or younger",
+      "detail": "CFIA's rabies-certificate-only route (no separate health certificate) applies when your dog is: older than 8 months (regardless of accompaniment or count); OR, for a dog 8 months old or younger, one of 2 or fewer such dogs travelling WITH their owner; OR a certified guide, hearing, or service dog accompanying its handler; OR temporarily exported for a competition or trial. Outside those categories — an UNACCOMPANIED dog 8 months old or younger, or 3 or more dogs 8 months old or younger travelling together — CFIA requires a health certificate that Petra does not check for. Confirm your movement fits one of the qualifying categories; if not, arrange the health certificate separately.",
+      "required": false,
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Confirm this is a domestic cat (or an F5+ generation hybrid)",
+      "detail": "CFIA's personal cat route covers only domestic cats (Felis catus) and F5-or-later generation hybrids. Non-domestic cats and early-generation (F1 to F4) hybrids need a CFIA import permit and are NOT covered by this verified route. Confirm your cat is a domestic cat or an F5+ hybrid before relying on the rabies-certificate route.",
+      "required": true,
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Rabies certificate in English or French, identifying the animal",
+      "detail": "Present an acceptable rabies certificate — in English OR French (not necessarily both), issued and signed by a licensed vet, clearly identifying the animal (breed, colour, weight) and showing a current rabies vaccination. It does NOT need APHIS endorsement for Canada.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Why rabies isn't being requested: pet is under 3 months",
+      "detail": "This pet is under 3 months old, so CFIA does not require a rabies record and Petra has skipped that check. Carry ordinary evidence of the animal's age (the rabies certificate is not the only acceptable age record). (This note only appears for under-90-day pets.)",
+      "required": false,
+      "scope_notes": [
+        "Applies up to 89 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Proof of the kitten's age (under 3 months)",
+      "detail": "This cat is under 3 months old and rabies-exempt, but CFIA requires proof of the cat's age at the border. Carry documentary evidence of the kitten's age (the rabies certificate is not the only acceptable age record) and confirm you have it.",
+      "required": true,
+      "scope_notes": [
+        "Applies to: cat",
+        "Applies up to 89 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Present the pet to a CBSA officer on arrival",
+      "detail": "At the border, present the pet and its rabies certificate to a CBSA officer for a document check + visual inspection.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://inspection.canada.ca/en/importing-food-plants-animals/pets/dogs",
+      "authority": "CFIA (Canada)",
+      "page_title": "Importing dogs into Canada",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "owner-accompanied personal dog/cat to Canada",
+      "supporting_requirements": [
+        "acceptable rabies certificate only",
+        "no import permit / endorsed health cert for the personal route",
+        "under-3-month exemption"
+      ]
+    },
+    {
+      "url": "http://web.archive.org/web/20260208142246/https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-canada",
+      "authority": "USDA APHIS (via Wayback Machine mirror — live aphis.usda.gov resets automated GETs on this exact URL)",
+      "page_title": "Pet Travel From the United States to Canada",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin personal dog/cat to Canada",
+      "supporting_requirements": [
+        "pets over 8 months only need a rabies certificate",
+        "health certs do not need APHIS endorsement for Canada",
+        "#1777: the rabies-certificate-only route is stated for 2 or fewer accompanied dogs (now a required checklist gate)",
+        "#1777: assistance/guide/hearing dogs are exempt from the rabies-certificate age threshold (now an informational checklist row)"
+      ]
+    },
+    {
+      "url": "https://inspection.canada.ca/en/node/7059#cat-dom-a3-no-rabies",
+      "authority": "CFIA (Canada)",
+      "page_title": "CFIA pet-import tool result: domestic cat, 3 months or older, from the United States",
+      "retrieved_at": "2026-07-07",
+      "applies_to": "US-origin personal domestic cat to Canada (the #374 cat row; parity with the dog route)",
+      "supporting_requirements": [
+        "valid rabies vaccination certificate for cats 3 months and older (EN or FR, vet-signed, identifying the animal)",
+        "under-3-months exempt: proof of age only (node/7059#cat-dom-u3)",
+        "no import permit / microchip not required for a personal cat"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-canada",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-canada.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

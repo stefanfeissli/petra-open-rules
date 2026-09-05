@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-colombia",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "CO",
+    "name": "Colombia"
+  },
+  "ruleset": {
+    "name": "Colombia (ICA)",
+    "stem": "co_ica"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://www.ica.gov.co/areas/pecuaria/servicios/sanidad-animal",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "severity": "recommended",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [
+        "Applies from 105 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine adenovirus / hepatitis vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parainfluenza",
+      "title": "Canine parainfluenza vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline herpesvirus (FVR) vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "co_health_certificate",
+      "title": "Colombia veterinary health certificate (examined within 10 days)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Pit-bull-type breeds are prohibited",
+      "detail": "Colombia prohibits the import of pit-bull-type breeds. Confirm your dog's breed is not on the restricted list before booking travel.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Rabies: first-time dose ≥21 days before shipment, pet 15 weeks or older",
+      "detail": "The certificate requires the animal to be 15 weeks of age or older to enter on the rabies-vaccinated pathway. For a first-time rabies vaccination, the dose must have been given at least 21 days before the shipment date. An on-time booster with no lapse has no wait. (Animals under 15 weeks follow the unvaccinated / home-quarantine pathway below instead.)",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Under 15 weeks: unvaccinated entry requires a home quarantine",
+      "detail": "Animals under 15 weeks of age may enter without a rabies vaccination, but entry is conditional on a home quarantine, during which the pet must be vaccinated against rabies by a private veterinarian or zootechnical veterinary doctor with professional registration, using vaccines registered by ICA in Colombia. Obtain and retain that documentation, then tick this off. (This item only appears for under-15-week pets.)",
+      "required": true,
+      "scope_notes": [
+        "Applies up to 104 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Antiparasitic treatment within 60 days of shipment",
+      "detail": "Internal + external antiparasitic treatment is mandatory for both cats and dogs and must be applied within 60 days prior to shipment, recorded on the certificate (product name, active ingredient, and administration date for each).",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Entry certificate (CIS) issued at the airport",
+      "detail": "Accompanied pets do NOT need a pre-arrival ICA import permit; ICA issues the CIS (Certificado de Inspección Sanitaria) at the airport on arrival.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ica.gov.co/noticias/ica-reglamenta-salida-entrada-mascotas-colombia",
+      "authority": "ICA (Colombia)",
+      "page_title": "ICA reglamenta la salida y entrada de mascotas (Res. 2656/2019)",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "dog/cat import to Colombia, accompanied pet",
+      "supporting_requirements": [
+        "USDA-endorsed Form 7001 accepted",
+        "CIS issued at the airport (no pre-arrival permit)",
+        "rabies + age gate",
+        "pit-bull-type breeds prohibited"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-colombia",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Colombia",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to Colombia",
+      "supporting_requirements": [
+        "Form 7001 USDA-endorsed within 10 days of travel",
+        "rabies"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-colombia",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Colombia (last modified 2026-03-05)",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to Colombia",
+      "supporting_requirements": [
+        "the certificate is the Colombia-specific International Health Certificate (https://www.aphis.usda.gov/sites/default/files/colombia-dog-cat.pdf), not Form 7001",
+        "endorsed/examined within 10 days of travel"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/sites/default/files/colombia-dog-cat.pdf",
+      "authority": "USDA APHIS",
+      "page_title": "Veterinary Health Certificate for Export of Dogs and Cats from the United States of America to Colombia",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to Colombia — the certificate itself",
+      "supporting_requirements": [
+        "\"The examination must be conducted within 10 days prior to shipment.\" (p.3, Certification Statement 1)",
+        "\"The minimum age for the entry of a rabies vaccinated pet to Colombia is 15 weeks.\" / \"the vaccination must have been given at least 21 days before the date of shipment\" for a first-time rabies vaccination (p.3, Certification Statement 2a)",
+        "\"The shipment contains animal(s) less than 15 weeks of age... The entry of these animals into the country will be conditional on the pets' undergoing a home quarantine, during which they must be vaccinated against rabies by a private veterinarian or zootechnical veterinary doctor with professional registration and with vaccines that are registered by the ICA in the country.\" (p.3, Certification Statement 2b)",
+        "\"This treatment is mandatory for cats and dogs. Parasite treatment must be applied within 60 days prior to shipment.\" (p.5, Parasite Treatment Information)"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-colombia",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-colombia.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

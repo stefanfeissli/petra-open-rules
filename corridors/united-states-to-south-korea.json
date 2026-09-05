@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-south-korea",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "KR",
+    "name": "South Korea"
+  },
+  "ruleset": {
+    "name": "South Korea (QIA)",
+    "stem": "kr_qia"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 60,
+  "source_url": "https://www.qia.go.kr/english/",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titre (FAVN ≥ 0.5 IU/mL)",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "kr_health_certificate",
+      "title": "Korea International Health Certificate (VEHCS, APHIS-endorsed within 30 days)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Microchip before the rabies vaccination",
+      "detail": "The microchip must be implanted before the rabies vaccination used for the titre, or QIA may not accept the vaccination history.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Animals under 90 days: titre exemption",
+      "detail": "Dogs/cats under 90 days old from a non-rabies-free origin are exempt from the rabies titre but face extra handling. Over-90-day animals from the US need the titre. The engine now models this (min_age_days: 90) when the pet's date of birth is on file — if DOB is missing, the titre check still fires (conservative).",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Be ready for on-arrival inspection at QIA",
+      "detail": "Documents + animal checked at the port of entry. Carry originals + copies.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.qia.go.kr/english/",
+      "authority": "QIA (South Korea)",
+      "page_title": "Animal and Plant Quarantine Agency — import of dogs and cats",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat import to South Korea",
+      "supporting_requirements": [
+        "country-specific International Health Certificate",
+        "FAVN titre ≥0.5 (valid 24 months from draw)",
+        "≥90-day age gate",
+        "microchip before vaccination"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-of-korea",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to South Korea",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to South Korea",
+      "supporting_requirements": [
+        "Korea-specific health certificate + APHIS endorsement within 30 days (not Form 7001)",
+        "FAVN titre"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-south-korea",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-south-korea.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

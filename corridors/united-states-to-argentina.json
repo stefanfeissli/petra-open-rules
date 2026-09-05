@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-argentina",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "AR",
+    "name": "Argentina"
+  },
+  "ruleset": {
+    "name": "Argentina (SENASA)",
+    "stem": "ar_senasa"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://www.argentina.gob.ar/senasa/programas-sanitarios/transito-internacional-animales-companias",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "ar_health_certificate",
+      "title": "Argentina international veterinary certificate (APHIS-endorsed)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "SENASA import application submitted AND approved before travel",
+      "detail": "Travelers must submit an import application to SENASA before their trip, and the application must be approved by SENASA by the time of entry into Argentina. Do not tick this off on submission alone — wait for SENASA's approval, then tick it. Apply here: https://www.argentina.gob.ar/servicio/animales-vivos-importación-exportación",
+      "required": true,
+      "url": "https://www.argentina.gob.ar/servicio/animales-vivos-importación-exportación",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Internal + external parasite treatment within 15 days",
+      "detail": "A licensed vet administers internal + external antiparasitic treatment within 15 days before travel, recorded on the export certificate.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Under-3-month exemption: age + dam-vaccination attestation",
+      "detail": "Because this pet is under 3 months old, rabies vaccination is NOT required — but in its place SENASA requires a veterinary attestation of the animal's age and the dam's rabies-vaccination status. Obtain it from your vet and tick this off; the trip is not ready without it. (This item only appears for under-90-day pets.)",
+      "required": true,
+      "scope_notes": [
+        "Applies up to 89 days old"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.argentina.gob.ar/senasa/programas-sanitarios/transito-internacional-animales-companias",
+      "authority": "SENASA (Argentina)",
+      "page_title": "Tránsito internacional de animales de compañía",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "dog/cat import to Argentina",
+      "supporting_requirements": [
+        "Argentina-specific international veterinary certificate",
+        "rabies (3 months+)",
+        "parasite treatment"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-argentina",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Argentina",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to Argentina",
+      "supporting_requirements": [
+        "Argentina-specific certificate + APHIS endorsement (not generic Form 7001)",
+        "rabies"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-argentina",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Argentina (last modified 2026-03-17)",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to Argentina",
+      "supporting_requirements": [
+        "\"Travelers must submit an import application to SENASA before their trip, and the application must be approved by SENASA by the time of entry into Argentina.\""
+      ]
+    },
+    {
+      "url": "https://www.argentina.gob.ar/servicio/animales-vivos-importación-exportación",
+      "authority": "SENASA (Argentina)",
+      "page_title": "Animales vivos: importación / exportación",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to Argentina — the SENASA import application itself",
+      "supporting_requirements": [
+        "SENASA import application submission before travel"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-argentina",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-argentina.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

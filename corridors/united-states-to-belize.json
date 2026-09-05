@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-belize",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "BZ",
+    "name": "Belize"
+  },
+  "ruleset": {
+    "name": "Belize (BAHA)",
+    "stem": "bz_baha"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://baha.org.bz/",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "severity": "recommended",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "bz_health_certificate",
+      "title": "Veterinary health certificate (within 14 days; APHIS endorsement NOT required)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine adenovirus / hepatitis vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "leptospirosis",
+      "title": "Leptospirosis vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline herpesvirus (FVR) vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Apply for the BAHA import permit",
+      "detail": "A BAHA import permit (around BZ$50, valid ~90 days, up to ~10 pets) must be obtained before travel. Your vet completes the permit form and it is sent to the Belize Agriculture Department for issuance. Without the permit BAHA can refuse entry.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Notify BAHA at least 2 days before arrival",
+      "detail": "Email BAHA with the arrival date, time, and flight number so a veterinary officer is present at the port of entry. This advance notice is mandatory; without it the pet may be refused or held while BAHA arranges inspection.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Confirm rabies is within 12 months at entry",
+      "detail": "Belize does not recognize multi-year (3-year) rabies products past the 12-month mark. Even if the manufacturer-stated expiry is further out, plan a booster if the last shot was more than ~10 months ago at travel time.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Inspection fee on arrival",
+      "detail": "BAHA collects an inspection fee in cash at the port of entry. The amount changes — confirm the current fee with BAHA before travel and bring local cash.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Endoparasite treatment within 30 days",
+      "detail": "Proof of internal (and external) anti-parasitic treatment within 30 days of travel should accompany the health certificate and vaccination records.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "First rabies dose ≥28 days before travel",
+      "detail": "If this is the pet's first rabies vaccination, it must be given at least 28 days before travel (in addition to the ≥30-day-old / ≤12-month rules at entry).",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "If your pet is under 4 months old: expect home quarantine",
+      "detail": "Pets less than 4 months can be brought in but are held in home quarantine until rabies can be administered, plus 30 days after.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://baha.org.bz/",
+      "authority": "Belize Agricultural Health Authority (BAHA)",
+      "page_title": "Belize Agricultural Health Authority",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "dog/cat import to Belize",
+      "supporting_requirements": [
+        "BAHA import permit",
+        "unendorsed vet certificate within 14 days",
+        "rabies + core vaccinations (genuinely required)",
+        "inspection on arrival"
+      ]
+    },
+    {
+      "url": "http://web.archive.org/web/20260614035758/https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-belize",
+      "authority": "USDA APHIS (via Wayback Machine mirror — live aphis.usda.gov resets automated GETs on this exact URL)",
+      "page_title": "Pet Travel From the United States to Belize",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat export to Belize",
+      "supporting_requirements": [
+        "no APHIS endorsement required",
+        "Form 7001 acceptable as unendorsed origin attestation (14-day window)",
+        "rabies",
+        "#1777: microchip is NOT mentioned anywhere in the Dogs and Cats requirements — demoted to recommended",
+        "#1777: internal/external parasite treatment is stated as strongly recommended, not mandatory (already correctly modeled as informational)"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-belize",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-belize.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-northern-ireland",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "XI",
+    "name": "Northern Ireland"
+  },
+  "ruleset": {
+    "name": "Northern Ireland",
+    "stem": "ni_pet_travel"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-24",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://www.daera-ni.gov.uk/articles/travelling-pets",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid (on/after the microchip)",
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "eu_ahc",
+      "title": "EU Animal Health Certificate (APHIS-endorsed)",
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "eu_ahc_onward",
+      "title": "EU Animal Health Certificate for onward EU travel",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "tapeworm",
+      "title": "Tapeworm treatment (Echinococcus), 24-120h before arrival",
+      "scope_notes": [
+        "Applies to: dog",
+        "Waived when departing directly from: Finland, Ireland, Northern Ireland, Malta, Norway",
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Enter via a Travellers' Point of Entry",
+      "detail": "Pets arriving directly into Northern Ireland from a third country must enter through an authorised Travellers' Point of Entry for the EU documentary and identity checks.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Give DAERA advance notification",
+      "detail": "Notify the authorities in advance of arrival (air arrivals must contact the relevant office ahead of travel). Confirm the current notice period with DAERA before booking.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "DAERA documentary and identity checks",
+      "detail": "Documentary and identity checks are carried out on the non-commercial movement of pets entering NI; present the pet, microchip, and the EU Animal Health Certificate.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Travel within 5 days of your pet",
+      "detail": "For non-commercial movement the owner (or an authorised person) must travel within 5 days of the pet. Outside that window it is treated as a commercial import.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Maximum 5 pets (non-commercial)",
+      "detail": "Up to 5 pets may move for non-commercial purposes in a single movement; more needs the commercial route.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: Northern Ireland"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "Apply for the Northern Ireland Pet Travel Document (PTD)",
+      "detail": "Residents of Great Britain need a free, lifetime Northern Ireland Pet Travel Document to bring a pet from GB into NI. Apply online via GOV.UK (APHA). The PTD and the pet's microchip are checked at the port or airport.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Sign the declaration of no onward EU travel",
+      "detail": "The PTD includes a declaration that you will not travel onward with the pet to Ireland or another EU country. If you intend onward EU travel you need an EU Animal Health Certificate instead (see below).",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Northern Ireland resident: microchip only",
+      "detail": "If you live in Northern Ireland you do not need a Pet Travel Document to bring your pet from GB to NI — just make sure it is microchipped.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Two-stage movement via Great Britain",
+      "detail": "Entering via Great Britain is a two-stage movement: the pet must first be imported INTO Great Britain under the GB rules (the GB pet health certificate, APHIS-endorsed), and then moved GB->NI. Petra evaluates the GB->NI leg here; complete the GB import separately as its own trip.",
+      "required": true,
+      "scope_notes": [
+        "Applies for arrival via: United Kingdom"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.daera-ni.gov.uk/articles/travelling-pets",
+      "authority": "DAERA (Department of Agriculture, Environment and Rural Affairs, NI)",
+      "page_title": "Travelling with Pets",
+      "retrieved_at": "2026-06-24",
+      "applies_to": "direct third-country (e.g. US) entry into Northern Ireland, non-commercial",
+      "supporting_requirements": [
+        "EU Animal Health Certificate (10-day entry)",
+        "Travellers' Point of Entry",
+        "advance notification",
+        "documentary + identity checks",
+        "microchip before rabies",
+        "tapeworm 24-120h (dogs)",
+        "5-day owner accompaniment",
+        "max 5 pets",
+        "assistance dogs same rules"
+      ]
+    },
+    {
+      "url": "https://www.daera-ni.gov.uk/articles/great-britain-northern-ireland-pet-travel-guidance",
+      "authority": "DAERA",
+      "page_title": "Great Britain to Northern Ireland Pet Travel Guidance",
+      "retrieved_at": "2026-06-24",
+      "applies_to": "GB->NI movements",
+      "supporting_requirements": [
+        "GB residents need the NI Pet Travel Document (lifetime)",
+        "NI residents need only a microchip",
+        "onward EU travel needs an EU AHC",
+        "PTD + microchip checked at port/airport",
+        "assistance dogs included"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/apply-for-northern-ireland-pet-travel-document",
+      "authority": "GOV.UK / APHA",
+      "page_title": "Apply for a Northern Ireland pet travel document",
+      "retrieved_at": "2026-06-24",
+      "applies_to": "GB residents bringing a pet GB->NI from 4 June 2025",
+      "supporting_requirements": [
+        "GB residency required",
+        "free, lasts the pet's lifetime",
+        "microchip",
+        "declaration of no onward EU travel"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-northern-ireland",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-northern-ireland.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

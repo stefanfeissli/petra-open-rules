@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-singapore",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "SG",
+    "name": "Singapore"
+  },
+  "ruleset": {
+    "name": "Singapore (AVS)",
+    "stem": "sg_avs"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 90,
+  "source_url": "https://www.avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid (on/after the microchip)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titre (FAVN/RNAT ≥ 0.5 IU/mL), 90-365 days before export",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine adenovirus vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline herpesvirus (FVR) vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "sg_health_certificate",
+      "title": "AVS Veterinary Health Certificate (APHIS-endorsed)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Confirm ISO 11784/11785 microchip compatibility (or a compatible reader will accompany the animal)",
+      "detail": "ISO 11784/11785 compatibility is NOT inferred from the chip number; confirm the chip is ISO-compatible, or that a compatible reader will accompany the animal.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Obtain a Singapore dog or cat licence (via PALS)",
+      "detail": "Owners must hold a Singapore dog OR cat licence (through the PALS portal) BEFORE applying for the import licence. Applies to both dogs and cats.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Apply for the AVS import licence",
+      "detail": "Apply online (S$50/100, ~90-day validity) before travel. Present it during airline check-in. Without it the pet is refused entry or quarantined.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Obtain a Customs In-Payment / GST permit before arrival",
+      "detail": "A Singapore Customs In-Payment (GST) permit must be obtained before the pet arrives. Mandatory part of the AVS import process.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Book a border-inspection appointment (≥5 days before arrival)",
+      "detail": "Book the AVS border inspection, generally at least 5 days before arrival. Arriving without an appointment risks an additional fee and delay.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Post-arrival quarantine is conditional",
+      "detail": "A Schedule II personal pet can AVOID post-arrival quarantine if it enters Singapore within 5 days of its owner AND has lived continuously with the owner at the same residential address for more than 6 months before import. Otherwise a minimum 10-day home quarantine applies (commercial-licence pets serve ≥10 days at the Animal Quarantine Centre). The waiver itself is authority-controlled and cannot be self-attested; confirm the quarantine arrangement.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Airline captain's declaration (Schedule I/II)",
+      "detail": "Schedule I and II animals need a signed airline captain's declaration. Confirm with the carrier before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Parasite treatment 2–7 days before export",
+      "detail": "Internal + external parasite treatment administered 2 to 7 days before export, recorded on the health certificate. Owner/vet attestation of the window; the date is attested, not independently verified by Petra.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
+      "authority": "AVS / NParks (Singapore)",
+      "page_title": "Importing dogs and cats (updated 2026-06-23)",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin (Schedule II) dog/cat import to Singapore",
+      "supporting_requirements": [
+        "US is Schedule II",
+        "core vaccines (DHP dogs / FVRCP-core cats)",
+        "dog OR cat licence via PALS",
+        "import licence",
+        "Customs GST permit",
+        "border-inspection appointment",
+        "FAVN titre 90 days–12 months pre-export",
+        "conditional 10-day home quarantine",
+        "AVS Veterinary Health Certificate"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-singapore",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Singapore",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to Singapore",
+      "supporting_requirements": [
+        "AVS Veterinary Health Certificate + APHIS endorsement (not Form 7001)",
+        "FAVN titre"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-singapore",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-singapore.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-iceland",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "IS",
+    "name": "Iceland"
+  },
+  "ruleset": {
+    "name": "Iceland (MAST)",
+    "stem": "is_mast"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-09-04",
+  "recommended_lead_time_days": 120,
+  "source_url": "https://www.mast.is/en/import-export/import-of-live-animals",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies serology titre (FAVN/RNATT ≥0.5 IU/ml)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "leptospirosis",
+      "title": "Leptospirosis vaccination valid (dogs)",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "is_health_certificate",
+      "title": "Official Iceland import health certificate",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Apply for the MAST import permit",
+      "detail": "An import permit from MAST is required before travel. Apply well in advance; entry without it is refused. Confirmed both by MAST directly and by APHIS: \"An import permit issued by Iceland Food and Veterinary Authority (MAST) is required to import pets to the country.\" No USDA endorsement is required for pet dogs or cats to Iceland — see the checklist note below.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "No USDA endorsement is required for dogs or cats",
+      "detail": "APHIS is explicit: \"At this time USDA endorsement is NOT required for pet dogs or cats to Iceland.\" Do not seek or pay for a USDA endorsement for this route.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Reserve a quarantine space (≥14 days) before travel",
+      "detail": "Imported dogs and cats are held in quarantine at an approved facility for at least 14 days. A confirmed quarantine reservation is mandatory before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "6-month pre-export residency",
+      "detail": "The animal must have resided in the origin (export) country for at least 6 months before export, or since birth.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Rabies titre timing (Category-2 origins like the US)",
+      "detail": "The rabies serology sample must be drawn at least 30 days after vaccination, and from a Category-2 origin (including the US) you must then wait at least 90 days after the sampling date before importing.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Required parasite treatments before export",
+      "detail": "MAST requires internal + external parasite treatments within defined pre-export windows (e.g. echinococcus/tapeworm and tick treatment). Confirm the exact products + timing with MAST and have your vet record them.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Single port of entry: Keflavík",
+      "detail": "Animals may only enter Iceland through Keflavík airport.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.mast.is/en/import-export/import-of-live-animals",
+      "authority": "MAST (Icelandic Food and Veterinary Authority)",
+      "page_title": "Import of live animals",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "dog/cat import to Iceland",
+      "supporting_requirements": [
+        "import permit",
+        "rabies serology titre",
+        "6-month residency",
+        "single port (Keflavík)",
+        "≥14-day quarantine"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-iceland",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Iceland (updated 2025-07-30)",
+      "retrieved_at": "2026-09-04",
+      "applies_to": "US-origin dog/cat import to Iceland",
+      "supporting_requirements": [
+        "\"At this time USDA endorsement is NOT required for pet dogs or cats to Iceland.\"",
+        "\"An import permit issued by Iceland Food and Veterinary Authority (MAST) is required to import pets to the country.\""
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-iceland",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-iceland.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

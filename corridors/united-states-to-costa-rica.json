@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-costa-rica",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "CR",
+    "name": "Costa Rica"
+  },
+  "ruleset": {
+    "name": "Costa Rica (SENASA)",
+    "stem": "cr_senasa"
+  },
+  "tier": "qualified",
+  "tier_label": "Qualified",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": [
+    "dog",
+    "cat"
+  ],
+  "last_reviewed": "2026-07-06",
+  "recommended_lead_time_days": 30,
+  "source_url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-costa-rica",
+  "verified_scope_note": "Covers personal, non-commercial travel from the United States to Costa Rica for dogs and cats. USDA APHIS endorsement of the certificate and SENASA's documentation check and inspection on arrival at SJO are decided outside Petra.",
+  "related_destination_note": null,
+  "caveats": [
+    {
+      "key": "arrival_inspection",
+      "text": "Costa Rica's SENASA officer performs the documentation check and visual inspection when you arrive at Juan Santamaría (SJO); Petra cannot pre-clear this step."
+    }
+  ],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded",
+      "severity": "recommended",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "cr_health_certificate",
+      "title": "Costa Rica International Veterinary Certificate (bilingual, APHIS-endorsed)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "distemper",
+      "title": "Canine distemper vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "adenovirus",
+      "title": "Canine adenovirus / hepatitis vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parvovirus",
+      "title": "Canine parvovirus vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "parainfluenza",
+      "title": "Canine parainfluenza vaccination valid",
+      "severity": "recommended",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "leptospirosis",
+      "title": "Leptospirosis vaccination valid",
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "feline_herpesvirus",
+      "title": "Feline herpesvirus (FVR) vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "calicivirus",
+      "title": "Feline calicivirus vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "panleukopenia",
+      "title": "Feline panleukopenia vaccination valid",
+      "scope_notes": [
+        "Applies to: cat"
+      ],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Costa Rica certificate: Spanish or English, USDA-accredited vet, APHIS-endorsed",
+      "detail": "The destination-specific International Veterinary Certificate may be in Spanish or English (the APHIS form is bilingual); a non-Spanish/English certificate would need an official certified Spanish translation. It is completed by a USDA-accredited vet and endorsed by USDA APHIS. No notary, no Costa Rican consular stamp, and no state Secretary of State apostille is required for the ordinary accompanied-pet route.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Internal + external parasite treatment within 15 days",
+      "detail": "A licensed vet administers internal and external antiparasitic treatment within 15 days before certificate issuance, recorded on the certificate (date, brand, lot, active ingredient). Petra has no separate evidence model for this treatment; confirm it from the certificate before travel.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Visual inspection on arrival at SJO",
+      "detail": "The SENASA officer performs a documentation check + visual inspection at Juan Santamaría; entry is refused for fresh or healing wounds or external parasites. No pre-arrival permit or quarantine for compliant accompanied pets.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://costaricaembassy.com/consulado/descargas/DCA-PG-02-RS-01-IN-006-V11-Perros-y-gatos.pdf",
+      "authority": "SENASA (Servicio Nacional de Salud Animal, MAG, Costa Rica)",
+      "page_title": "Requisitos para la importación de perros y gatos — DCA-PG-02-RS-01-IN-006 Versión 11 (rige 19/07/2024)",
+      "retrieved_at": "2026-07-06",
+      "applies_to": "the competent destination authority's entry requirements for dogs and cats",
+      "supporting_requirements": [
+        "certificate in Spanish or English (§3.4)",
+        "microchip recorded if the animal has one (§4.1)",
+        "internal + external parasite treatment within 15 days (§5.2)",
+        "dog core vaccines distemper/hepatitis/parvovirus/leptospirosis (§5.3)",
+        "cat core vaccines rhinotracheitis/calicivirus/panleukopenia (§5.4)",
+        "rabies for animals over 3 months, valid the day of entry; under 3 months not vaccinated (§5.5/§5.6)",
+        "no notary or consular stamp (§6.6)",
+        "arrival inspection (§7)"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/sites/default/files/costa-rica-dog-cat.pdf",
+      "authority": "USDA APHIS",
+      "page_title": "Veterinary Health Certificate for the Export of Dogs and Cats from the USA to Costa Rica (CR-specific bilingual form)",
+      "retrieved_at": "2026-07-06",
+      "applies_to": "the CR-specific certificate the US-export path uses (refutes generic Form 7001)",
+      "supporting_requirements": [
+        "clinical exam within 2 weeks",
+        "parasite treatment within 15 days (statement 2)",
+        "dog core vaccines (statement 3)",
+        "cat core vaccines (statement 4)",
+        "rabies over 3 months, valid at day of entry (statement 5)",
+        "USDA-accredited vet + USDA (APHIS) endorsement signature blocks"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-costa-rica",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Costa Rica (Last Modified 2026-02-06)",
+      "retrieved_at": "2026-07-06",
+      "applies_to": "US-side process facts for US-origin dog/cat, non-commercial",
+      "supporting_requirements": [
+        "APHIS endorsement required after accredited-vet issuance",
+        "import permit only for unaccompanied pets",
+        "requirements described in the health certificate"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-costa-rica",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-costa-rica.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}

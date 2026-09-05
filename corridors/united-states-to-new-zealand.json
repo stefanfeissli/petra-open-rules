@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "corridor": "united-states-to-new-zealand",
+  "origin": {
+    "code": "US",
+    "name": "United States"
+  },
+  "destination": {
+    "code": "NZ",
+    "name": "New Zealand"
+  },
+  "ruleset": {
+    "name": "New Zealand (MPI)",
+    "stem": "nz_mpi"
+  },
+  "tier": "guidance",
+  "tier_label": "Guidance only",
+  "origin_scope": [
+    "US"
+  ],
+  "species_scope": null,
+  "last_reviewed": "2026-06-23",
+  "recommended_lead_time_days": 150,
+  "source_url": "https://www.mpi.govt.nz/import/live-animals/pets/cats-and-dogs-pet-travel-scheme/",
+  "verified_scope_note": null,
+  "related_destination_note": null,
+  "caveats": [],
+  "requirements": [
+    {
+      "key": "microchip",
+      "title": "Microchip recorded (ISO 11784/11785)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies",
+      "title": "Rabies vaccination valid",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "favn_titer",
+      "title": "Rabies antibody titre (RNATT ≥ 0.5 IU/mL)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "nz_health_certificate_a",
+      "title": "NZ Health Certificate A (home-country attestations, APHIS-endorsed)",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "key": "nz_health_certificate_b",
+      "title": "NZ Health Certificate B (pre-export inspection / seal, APHIS-endorsed)",
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "manual_checklist": [
+    {
+      "title": "Read MPI's CATDOG.GEN import health standard",
+      "detail": "The governing standard (full PDF on MPI's website) walks the timeline. Reading it before booking saves expensive re-bookings later.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Apply for the MPI Permit to Import",
+      "detail": "Apply online well ahead (allow ~20 business days / ~30 working days). Without the permit the pet is refused entry.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "RNATT sample 3–24 months before shipment",
+      "detail": "MPI requires a rabies neutralising antibody titre (FAVN/RFFIT) ≥0.5 IU/mL with the sample collected between 3 and 24 months before shipment — a 3-month minimum wait, NOT Australia's 180 days.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Dog-only tests + double parasite treatments",
+      "detail": "Dogs additionally need heartworm (treat + negative ELISA), Babesia gibsoni, Brucella canis, and leptospirosis testing/treatment per CATDOG.GEN, plus two internal and two external parasite treatments and a pre-export exam. Confirm the schedule with your vet.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Reserve an MPI-facility quarantine slot (min 10 days)",
+      "detail": "Auckland or Christchurch transitional facility, minimum 10 days. A confirmed booking is mandatory before travel. Book early.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.mpi.govt.nz/import/live-animals/pets/cats-and-dogs-pet-travel-scheme/",
+      "authority": "MPI (New Zealand)",
+      "page_title": "Cats and dogs pet travel scheme (IHS CATDOG.GEN)",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat import to New Zealand",
+      "supporting_requirements": [
+        "RNATT sample 3–24 months before shipment (3-month wait)",
+        "Health Certificate A + B",
+        "Permit to Import",
+        "min 10-day quarantine"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-new-zealand",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to New Zealand",
+      "retrieved_at": "2026-06-23",
+      "applies_to": "US-origin dog/cat export to New Zealand",
+      "supporting_requirements": [
+        "Health Certificates A + B endorsed by APHIS (not Form 7001)",
+        "RNATT"
+      ]
+    }
+  ],
+  "url": "https://petraverify.id/corridors/united-states-to-new-zealand",
+  "disclaimer": "Review dates describe Petra's review history; they are not a promise that no authority has changed its requirements since that review.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
+  "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
+  "version": "f0714b097615d32819639d450634b16b526c6139",
+  "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-new-zealand.json",
+  "corrections": {
+    "address": "stefan@petraverify.id",
+    "subject_template": "Correction: {origin}→{destination}",
+    "guidance": "A useful report names the specific record and field, states what you believe is correct, and cites the primary source URL and the date you checked it."
+  }
+}
