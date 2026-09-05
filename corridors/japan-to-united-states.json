@@ -27,9 +27,9 @@
   "species_scope": [
     "dog"
   ],
-  "last_reviewed": "2026-07-12",
+  "last_reviewed": "2026-09-05",
   "recommended_lead_time_days": 30,
-  "source_url": "https://www.cdc.gov/importation/bringing-an-animal-into-the-united-states/dogs.html",
+  "source_url": "https://www.cdc.gov/importation/dogs/rabies-free-low-risk-countries.html",
   "verified_scope_note": "Covers personal, non-commercial import of a dog into the United States from a CDC low-risk-origin country. This is the CDC federal dog-import layer only (not USDA/APHIS, CBP inspection, airline, or US-state requirements). CBP's documentation check and visual inspection on arrival are decided outside Petra.",
   "related_destination_note": null,
   "caveats": [
@@ -67,10 +67,10 @@
   "manual_checklist": [],
   "sources": [
     {
-      "url": "https://www.cdc.gov/importation/bringing-an-animal-into-the-united-states/dogs.html",
+      "url": "https://www.cdc.gov/importation/dogs/rabies-free-low-risk-countries.html",
       "authority": "US CDC (Centers for Disease Control and Prevention)",
-      "page_title": "Bringing a Dog into the United States (CDC dog-import rule, 42 CFR 71.51)",
-      "retrieved_at": "2026-07-12",
+      "page_title": "Entry Requirements for Dogs from Dog-Rabies Free or Low-Risk Countries (CDC dog-import rule, 42 CFR 71.51)",
+      "retrieved_at": "2026-09-05",
       "applies_to": "the CDC federal dog-import layer for a dog arriving from a low-risk-origin country (microchip, minimum age 6 months, low-risk history, CDC Dog Import Form receipt)",
       "supporting_requirements": [
         "microchip required for import",
@@ -86,7 +86,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "fa59c812e3f1aa93b878dd4f9e47f9cf3339092d",
+  "version": "14993ee350ddab93bb8c2035d9b4b200139591de",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/japan-to-united-states.json",
   "corrections": {
     "address": "stefan@petraverify.id",
