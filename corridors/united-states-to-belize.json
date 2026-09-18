@@ -13,18 +13,27 @@
     "name": "Belize (BAHA)",
     "stem": "bz_baha"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "qualified",
+  "tier_label": "Source-checked · 2026-09-18",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-06-23",
+  "last_reviewed": "2026-09-18",
   "recommended_lead_time_days": 30,
-  "source_url": "https://baha.org.bz/",
+  "source_url": "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf",
   "verified_scope_note": null,
   "related_destination_note": null,
-  "caveats": [],
+  "caveats": [
+    {
+      "key": "bz_health_certificate_external",
+      "text": "The Belize veterinary health certificate is completed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."
+    },
+    {
+      "key": "baha_permit_and_inspection_external",
+      "text": "The BAHA import permit, the 48-hour arrival notice, and the port-of-entry inspection are BAHA's own external process; Petra records that you submitted/notified, not that BAHA approved or cleared the animal."
+    }
+  ],
   "requirements": [
     {
       "key": "microchip",
@@ -40,6 +49,12 @@
       "class": "interpretation"
     },
     {
+      "key": "rabies_wait",
+      "title": "28-day wait after a first rabies dose; no dose before 12 weeks old",
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
       "key": "bz_health_certificate",
       "title": "Veterinary health certificate (within 14 days; APHIS endorsement NOT required)",
       "scope_notes": [],
@@ -48,7 +63,6 @@
     {
       "key": "distemper",
       "title": "Canine distemper vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: dog"
       ],
@@ -57,7 +71,6 @@
     {
       "key": "adenovirus",
       "title": "Canine adenovirus / hepatitis vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: dog"
       ],
@@ -66,7 +79,6 @@
     {
       "key": "parvovirus",
       "title": "Canine parvovirus vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: dog"
       ],
@@ -75,7 +87,6 @@
     {
       "key": "leptospirosis",
       "title": "Leptospirosis vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: dog"
       ],
@@ -84,7 +95,6 @@
     {
       "key": "feline_herpesvirus",
       "title": "Feline herpesvirus (FVR) vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: cat"
       ],
@@ -93,7 +103,6 @@
     {
       "key": "calicivirus",
       "title": "Feline calicivirus vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: cat"
       ],
@@ -102,7 +111,6 @@
     {
       "key": "panleukopenia",
       "title": "Feline panleukopenia vaccination valid",
-      "severity": "recommended",
       "scope_notes": [
         "Applies to: cat"
       ],
@@ -125,8 +133,15 @@
       "class": "interpretation"
     },
     {
-      "title": "Confirm rabies is within 12 months at entry",
-      "detail": "Belize does not recognize multi-year (3-year) rabies products past the 12-month mark. Even if the manufacturer-stated expiry is further out, plan a booster if the last shot was more than ~10 months ago at travel time.",
+      "title": "Puppies: first rabies dose not before 12 weeks (84 days) old",
+      "detail": "BAHA's Import Conditions document (item D): puppies must NOT be vaccinated against rabies before they are 3 months (12 weeks / 84 days) old, and the rabies certificate must include the puppy's age or date of birth. Petra's rabies_wait requirement enforces this structurally when the dose's date and the pet's date of birth are both on file.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Adult dogs 15 months+: booster-history exemption from the 28-day wait",
+      "detail": "BAHA's Import Conditions document (item E): a dog 15 months or older may travel less than 4 weeks after a booster vaccination if accompanied by proof of a documented rabies-vaccination history (at least one dose given after 3 months old, plus one current booster). Without that documented history, the ordinary ≥28-day first-time wait applies. Petra's rabies_wait requirement waives the wait automatically when a qualifying prior dose is on file (evidenced continuity).",
       "required": false,
       "scope_notes": [],
       "class": "interpretation"
@@ -141,13 +156,13 @@
     {
       "title": "Endoparasite treatment within 30 days",
       "detail": "Proof of internal (and external) anti-parasitic treatment within 30 days of travel should accompany the health certificate and vaccination records.",
-      "required": false,
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "First rabies dose ≥28 days before travel",
-      "detail": "If this is the pet's first rabies vaccination, it must be given at least 28 days before travel (in addition to the ≥30-day-old / ≤12-month rules at entry).",
+      "detail": "If this is the pet's first rabies vaccination, it must be given at least 28 days before travel — Petra's rabies_wait requirement enforces this structurally (waived automatically for a documented booster with evidenced continuity).",
       "required": false,
       "scope_notes": [],
       "class": "interpretation"
@@ -175,6 +190,34 @@
       ]
     },
     {
+      "url": "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf",
+      "authority": "Belize Agricultural Health Authority (BAHA), Animal Health Department",
+      "page_title": "Import Conditions Dogs & Cats (June 2023)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat import to Belize — the species-specific destination-authority document",
+      "supporting_requirements": [
+        "\"a veterinary certificate issued within two (2) weeks of travel date\" (item 1 — confirms the 14-day certificate window)",
+        "\"vaccinated against Rabies and that its vaccination is current\" (item B); \"first time must be vaccinated at least 4 weeks (28 days) before traveling\" (item C); \"Puppies must NOT be vaccinated against rabies before they are 3-months (12 weeks or 84 days) old\" (item D, NEW); \"Adult dogs (15 months or older) may travel less than 4 weeks after a booster vaccination if... proof of a history of previous rabies vaccination\" (item E, NEW)",
+        "\"All dogs must be vaccinated against Distemper, Hepatitis, Leptospirosis and Parvovirus. All cats must be vaccinated against Feline Viral Rhinotracheitis, Calici Virus and Panleukopenia.\" (item F — RE-PROMOTES these seven vaccines from recommended to gating, correcting the 2026-06-23 demotion)",
+        "\"treated against endoparasites with a registered product in the country of origin within thirty (30) days of exportation\" (item G)"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-belize",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Belize (live re-fetch)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat export to Belize",
+      "supporting_requirements": [
+        "import permit",
+        "unendorsed certificate",
+        "core vaccines 'strongly recommended' (superseded by BAHA's own binding language above)",
+        "30-day parasite treatment recommendation",
+        "under-4-months rabies exemption + home quarantine",
+        "2-day advance notice"
+      ]
+    },
+    {
       "url": "http://web.archive.org/web/20260614035758/https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-belize",
       "authority": "USDA APHIS (via Wayback Machine mirror — live aphis.usda.gov resets automated GETs on this exact URL)",
       "page_title": "Pet Travel From the United States to Belize",
@@ -194,7 +237,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "b94b3e7673858b8fd7687572add12052a5c63eb0",
+  "version": "47399db97fdef68db0c401bac414756600627375",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-belize.json",
   "corrections": {
     "address": "stefan@petraverify.id",

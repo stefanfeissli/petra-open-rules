@@ -10,21 +10,30 @@
     "name": "Hawaii"
   },
   "ruleset": {
-    "name": "Hawaii (HDOA)",
+    "name": "Hawaii (DAB)",
     "stem": "hi_doa"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "qualified",
+  "tier_label": "Source-checked · 2026-09-18",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-09-04",
+  "last_reviewed": "2026-09-18",
   "recommended_lead_time_days": 120,
   "source_url": "https://dab.hawaii.gov/ai/aqs/aqs-info/",
   "verified_scope_note": null,
   "related_destination_note": null,
-  "caveats": [],
+  "caveats": [
+    {
+      "key": "hipop_application_approval",
+      "text": "Hawaii's HIPOP entry application and its review happen outside Petra; Petra records that you submitted the application through HIPOP, not that DAB approved it."
+    },
+    {
+      "key": "airport_document_deadline",
+      "text": "The document-submission deadline (10 days for Honolulu, 30 days for Kona/Kahului/Līhu'e) is enforced by DAB at the airport, not by Petra; missing it changes your program/fee but Petra cannot verify timely submission itself."
+    }
+  ],
   "requirements": [
     {
       "key": "microchip",
@@ -76,14 +85,21 @@
     },
     {
       "title": "Two rabies vaccinations in the pet's lifetime",
-      "detail": "Hawaii requires original certificates for 2 rabies vaccinations in the pet's lifetime, the most recent given more than 30 days before arrival and still in-date. Each certificate must be signed in ink by a licensed veterinarian, and must list: vaccine name, lot or serial number, booster interval, vaccination date, and vaccine lot expiration date.",
-      "required": false,
+      "detail": "Hawaii requires original certificates for 2 rabies vaccinations in the pet's lifetime, AT LEAST 30 DAYS APART, the most recent given more than 30 days before arrival and still in-date (Petra's structured check enforces the count, validity, and the most-recent-dose's 30-day-before-arrival timing, but not the gap BETWEEN the two doses — confirm that from your vet's records). Each certificate must be signed in ink by a licensed veterinarian, and must list: vaccine name, lot or serial number, booster interval, vaccination date, and vaccine lot expiration date.",
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "OIE-FAVN titer timing: arrive 30 days–36 months after the lab receives the sample",
       "detail": "The clock starts the day the approved lab RECEIVES the blood sample, not the draw or result date. Too early (under 30 days) or too late (over 36 months) means quarantine.",
+      "required": false,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Microchip must be implanted before (or at) the FAVN blood draw",
+      "detail": "DAB's own veterinarian guidance requires the electronic microchip to be implanted prior to or when blood is drawn for the OIE-FAVN test, with the microchip number recorded on the lab submission form — a lab will not run the test without it. Petra enforces this ordering structurally when the microchip's implant date is on file.",
       "required": false,
       "scope_notes": [],
       "class": "interpretation"
@@ -98,7 +114,7 @@
     {
       "title": "Tick treatment within 14 days of arrival, recorded on the certificate",
       "detail": "A tick treatment must be given within 14 days of arrival and recorded on the health certificate. Revolution® is NOT an acceptable product for this treatment.",
-      "required": false,
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     }
@@ -142,6 +158,29 @@
         "health certificate \"done within 14 days of arrival\", original, \"photocopy not acceptable\"",
         "tick treatment within 14 days recorded on the certificate, \"Revolution® is not acceptable\""
       ]
+    },
+    {
+      "url": "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+      "authority": "Hawaii Department of Agriculture and Biosecurity (DAB), Animal Industry Division",
+      "page_title": "Animal Quarantine Information (fresh re-verification)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "domestic (US-state) dog/cat import to Hawaii — FAVN/rabies windows",
+      "supporting_requirements": [
+        "\"Minimum waiting period after a successful FAVN rabies antibody test before arriving in HI. 30 Days\"",
+        "\"proof of two rabies vaccinations within the required timeframe and a passing FAVN test are required for all dogs and cats entering the State of Hawai'i\""
+      ]
+    },
+    {
+      "url": "https://dab.hawaii.gov/ai/files/2019/08/AQS-39_8.21.2019.pdf",
+      "authority": "Hawaii DAB, Rabies Quarantine Branch",
+      "page_title": "AQS-39 (Rev. 8/21/2019) — Summary For Veterinarians",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "domestic (US-state) dog/cat import to Hawaii — FAVN window, two-dose rabies rule, microchip-before-sample sequencing",
+      "supporting_requirements": [
+        "\"For the 5-Day-Or-Less Program: The most recent OIE-FAVN test is valid for 36 months. Animal must wait at least 30 days from the time the blood sample is received by the laboratory before arriving in Hawaii...\"",
+        "\"RABIES VACCINATIONS: At least two rabies vaccinations are required... there must be an interval of one month (30 days) or more between the two required vaccinations... No rabies vaccination may be given within the immediate 30 days before arrival in Hawaii.\"",
+        "\"ELECTRONIC MICROCHIP IMPLANTATION: An electronic microchip (U.S. or ISO spec.) must be implanted prior to or when blood is collected for rabies serology (OIE-FAVN test).\" (new fact — informational checklist row only, no new gating primitive)"
+      ]
     }
   ],
   "url": "https://petraverify.id/corridors/united-states-to-hawaii",
@@ -149,7 +188,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "b94b3e7673858b8fd7687572add12052a5c63eb0",
+  "version": "47399db97fdef68db0c401bac414756600627375",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-hawaii.json",
   "corrections": {
     "address": "stefan@petraverify.id",

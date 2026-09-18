@@ -13,18 +13,27 @@
     "name": "Brazil (MAPA)",
     "stem": "br_mapa"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "qualified",
+  "tier_label": "Source-checked · 2026-09-18",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-09-05",
+  "last_reviewed": "2026-09-18",
   "recommended_lead_time_days": 45,
   "source_url": "https://www.gov.br/agricultura/pt-br/assuntos/vigilancia-agropecuaria/animais-estimacao/entrar-no-brasil",
   "verified_scope_note": null,
   "related_destination_note": null,
-  "caveats": [],
+  "caveats": [
+    {
+      "key": "br_health_certificate_external",
+      "text": "The Certificado Veterinário Internacional (CVI) is completed and APHIS-endorsed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."
+    },
+    {
+      "key": "us_origin_only",
+      "text": "This qualified claim covers ONLY personal travel departing the United States. A different origin's export document is not modeled by this ruleset and stays at the guidance floor."
+    }
+  ],
   "requirements": [
     {
       "key": "microchip",
@@ -36,7 +45,17 @@
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
-      "scope_notes": [],
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies_wait",
+      "title": "21-day wait after a primary rabies vaccination",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
       "class": "interpretation"
     },
     {
@@ -50,7 +69,7 @@
   "manual_checklist": [
     {
       "title": "Internal + external parasite treatment within 15 days of CVI issue",
-      "detail": "A licensed vet administers internal + external antiparasitic treatment within 15 days before the CVI is issued and records it on the certificate.",
+      "detail": "A licensed vet administers internal + external antiparasitic treatment within 15 days before the CVI is issued and records it on the certificate. Certification Statement 2 (docs/verification-packages/brazil-primary-2026-09/): \"submitted within fifteen (15) days prior to the date of issue of the health certificate to a broad-spectrum treatment against internal and external parasites.\"",
       "required": false,
       "scope_notes": [],
       "class": "interpretation"
@@ -60,6 +79,15 @@
       "detail": "Pets arriving in Brazil without the required documents can be re-exported, quarantined, or in rare cases euthanised.",
       "required": false,
       "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Under 90 days old: unvaccinated entry requires the certificate's age/no-urban-rabies attestation",
+      "detail": "Certification Statement 1B (docs/verification-packages/brazil-primary-2026-09/): a pet under 90 days old at certificate issuance may enter without a rabies vaccination if the certifying vet attests it was NOT vaccinated against rabies AND has not been on any property with a reported case of urban rabies in the last 90 days. Confirm your vet includes this attestation on the CVI, then tick this off. (This item only appears for under-90-day pets; Petra checks age at ARRIVAL, which may occasionally be stricter than the certificate's own issuance-date condition for a pet that ages past 90 while a valid certificate is still in its 60-day window — contact support if this affects you.)",
+      "required": true,
+      "scope_notes": [
+        "Applies up to 89 days old"
+      ],
       "class": "interpretation"
     }
   ],
@@ -88,6 +116,28 @@
         "rabies",
         "#1777: the CVI's 60-day validity, now surfaced via public_summary"
       ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-brazil",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the United States to Brazil (dateModified 2026-07-23)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat export to Brazil",
+      "supporting_requirements": [
+        "the certificate is the sole source of the rabies/parasite requirements; this page links to it rather than restating it"
+      ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/sites/default/files/brazil-dogs-cats.pdf",
+      "authority": "USDA (issuing authority) / MAPA (destination)",
+      "page_title": "Veterinary Health Certificate for Export of Dogs and Cats from the United States of America to Brazil",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat export to Brazil — the certificate itself; exact origin/destination/species/scenario match (ruling 2)",
+      "supporting_requirements": [
+        "\"Has been vaccinated against rabies* (*In the case of a primary vaccination, vaccination must occur at least 21 days before departure) Or ... It was less than ninety (90) days old at the time of the issuance of this certificate. It was not vaccinated against rabies and have not been in any property where there has been reported cases of urban rabies in the last ninety (90) days.\" (Certification Statement 1 — the under-90-day exemption, NEW, added below)",
+        "\"The animal was submitted within fifteen (15) days prior to the date of issue of the health certificate to a broad-spectrum treatment against internal and external parasites...\" (Certification Statement 2)",
+        "\"This International Veterinary Certificate is valid for 60 (sixty) days from the date of issuance.\" (item 5, re-confirms the existing 60-day claim)"
+      ]
     }
   ],
   "url": "https://petraverify.id/corridors/united-states-to-brazil",
@@ -95,7 +145,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "b94b3e7673858b8fd7687572add12052a5c63eb0",
+  "version": "47399db97fdef68db0c401bac414756600627375",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-brazil.json",
   "corrections": {
     "address": "stefan@petraverify.id",
