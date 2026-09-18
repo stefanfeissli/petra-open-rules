@@ -9,6 +9,51 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-09-18 — b94b3e7
+
+_Covers every rules-touching commit from 12ea53d to b94b3e7 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### australia-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### great-britain-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### ireland-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### japan-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### mexico-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### new-zealand-to-united-states
+
+- Tier label changed: Qualified → Source-checked · 2026-09-05.
+
+### united-states-to-canada
+
+- Tier label changed: Authoritative → Source-checked · 2026-09-04.
+
+### united-states-to-costa-rica
+
+- Tier label changed: Qualified → Source-checked · 2026-07-06.
+
+### united-states-to-japan
+
+- Tier label changed: Qualified → Source-checked · 2026-09-04.
+
+### united-states-to-panama
+
+- Tier label changed: Qualified → Source-checked · 2026-07-07.
+
+
 ## 2026-09-17 — 12ea53d
 
 _Covers every rules-touching commit from 3d303e1 to 12ea53d (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
