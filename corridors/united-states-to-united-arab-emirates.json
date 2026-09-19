@@ -13,18 +13,27 @@
     "name": "United Arab Emirates (MOCCAE)",
     "stem": "ae_moccae"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "qualified",
+  "tier_label": "Source-checked · 2026-09-18",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-09-04",
+  "last_reviewed": "2026-09-18",
   "recommended_lead_time_days": 45,
-  "source_url": "https://www.moccae.gov.ae/en/services/customer/services.import-of-live-animals.aspx",
+  "source_url": "https://www.moccae.gov.ae/en/services/import-permit-pets",
   "verified_scope_note": null,
   "related_destination_note": null,
-  "caveats": [],
+  "caveats": [
+    {
+      "key": "ae_health_certificate_external",
+      "text": "The MOCCAE Model Veterinary Health Certificate is completed and USDA-VS endorsed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."
+    },
+    {
+      "key": "ae_permit_external",
+      "text": "The MOCCAE import permit and the port-of-entry release inspection are MOCCAE's own external process; Petra records that you applied, not that MOCCAE approved or released the animal."
+    }
+  ],
   "requirements": [
     {
       "key": "microchip",
@@ -116,37 +125,62 @@
   "manual_checklist": [
     {
       "title": "Apply for the MOCCAE import permit",
-      "detail": "Online via the ministry portal before arrival. Pay the fee and keep the permit (copy presented on arrival). The permit is valid for 30 days — apply close enough to travel that it hasn't lapsed, but early enough to clear before departure. Pets fly as manifested cargo.",
+      "detail": "Online via the ministry portal before arrival. Pay the fee (AED 200 per head) and keep the permit (copy presented on arrival). The permit is valid for 90 days — apply close enough to travel that it hasn't lapsed, but early enough to clear before departure. Pets fly as manifested cargo.",
       "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "Animals must be at least 15 weeks old",
-      "detail": "Younger pets are refused. (This is 15 weeks, not 4 months — the rabies vaccination + 21-day titre timing pushes the practical minimum higher.)",
-      "required": false,
+      "detail": "Younger pets are refused. (This is 15 weeks, not 4 months — the rabies vaccination + 21-day titre timing pushes the practical minimum higher.) Confirm your pet meets this age before travel; Petra does not block readiness on age itself.",
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "Parasite treatment within 14 days, recorded on the certificate",
       "detail": "Internal + external parasite treatment within 14 days of travel, noted on the MOCCAE health certificate.",
-      "required": false,
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "Annual import quota: max 2 pets",
-      "detail": "MOCCAE limits non-commercial pet imports to 2 animals per person per year.",
-      "required": false,
+      "detail": "MOCCAE limits non-commercial pet imports to 2 animals per person per year. Confirm this trip doesn't exceed your annual quota; Petra does not track imports across trips or owners.",
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "title": "Check the banned-breeds list",
-      "detail": "Pit-bull-type breeds and some others are refused entry to the UAE. Owner-side check before booking.",
-      "required": false,
+      "detail": "Pit-bull-type breeds and some others are refused entry to the UAE. Confirm your dog's breed is not on the restricted list; Petra has no breed data to check this itself.",
+      "required": true,
+      "scope_notes": [
+        "Applies to: dog"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "title": "No rabies booster given after the titre was drawn",
+      "detail": "If a rabies booster was given after the RNATT titre sample was drawn, the titre is invalidated and must be re-drawn (≥365-day validity applies only while the vaccination that was current at draw time remains current, with no intervening booster). Confirm no booster has been given since the titre sample; Petra does not track vaccination-vs-titre sequencing after the fact.",
+      "required": true,
       "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "No mixing with other pet animals in transit",
+      "detail": "If the shipment transits through another country, it must not mix with other pet animals during transit. Confirm your routing meets this; Petra does not track transit routing or mixing.",
+      "required": true,
+      "scope_notes": [],
+      "class": "interpretation"
+    },
+    {
+      "title": "Bengal/Serval cats: fifth-generation pedigree certificate",
+      "detail": "Bengal and Serval cats require a fifth-generation pedigree certificate to enter the UAE. Confirm this applies/is on hand if your cat is one of these breeds; Petra has no breed data to check this itself.",
+      "required": true,
+      "scope_notes": [
+        "Applies to: cat"
+      ],
       "class": "interpretation"
     }
   ],
@@ -175,8 +209,22 @@
       "supporting_requirements": [
         "MOCCAE Model Veterinary Health Certificate + USDA-VS endorsement (not Form 7001)",
         "RNATT titre",
-        "import permit valid 30 days (#1777 correction — was modeled as ~90)",
         "21-day wait after a first-time or lapsed rabies vaccination (#1777 — now an automated gate, rabies_wait)"
+      ]
+    },
+    {
+      "url": "https://www.moccae.gov.ae/en/services/import-permit-pets",
+      "authority": "MOCCAE (UAE) — the destination authority's own page",
+      "page_title": "Import of pets (cats / dogs) | Service Details | Services (Service Code 122-003-008-000)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat import to the UAE (US is a high-risk-country origin per MOCCAE's own published low-risk list)",
+      "supporting_requirements": [
+        "\"Issuance of Import permit prior to importation... (validity of permit is 90 days. It is not allowed to import pets with an expired import permit).\"",
+        "\"The cats and dogs must be identified with a permanent microchip...\"",
+        "\"i. In case that the pet is vaccinated for the first time or discontinuity of the vaccination: a period not less than 21 days must pass from vaccination against Rabies. ii. In case that the animal has a valid booster vaccination, It does not require an interval of 21 days...\" / \"The test result should not be less than (0.5 IU / ml).\" / \"The validity of the Rabies Testing certificate is 365 days...\"",
+        "\"the minimum age for importing from the high risk countries is not less than 15 weeks\" / \"The vaccination should be done at age not less than 12 weeks\" (new fact, not gated)",
+        "\"received preventive doses for internal and external parasites during the 14 days prior to shipment...\"",
+        "\"Personal import is allowed for no more than 2 cats or 2 dogs or a dog and a cat annually...\""
       ]
     }
   ],
@@ -185,7 +233,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "47399db97fdef68db0c401bac414756600627375",
+  "version": "3234495df95d2e6d9d89d7f296f07d3ea2a6d812",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-united-arab-emirates.json",
   "corrections": {
     "address": "stefan@petraverify.id",

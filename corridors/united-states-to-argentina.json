@@ -13,28 +13,42 @@
     "name": "Argentina (SENASA)",
     "stem": "ar_senasa"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "qualified",
+  "tier_label": "Source-checked · 2026-09-18",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-09-17",
+  "last_reviewed": "2026-09-18",
   "recommended_lead_time_days": 30,
   "source_url": "https://www.argentina.gob.ar/senasa/informacion-al-viajero/ingresar-o-regresar-al-pais/ingresos-con-perros-yo-gatos",
   "verified_scope_note": null,
   "related_destination_note": null,
-  "caveats": [],
+  "caveats": [
+    {
+      "key": "ar_health_certificate_external",
+      "text": "The Argentina international veterinary certificate is completed and APHIS-endorsed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."
+    }
+  ],
   "requirements": [
     {
       "key": "microchip",
       "title": "Microchip recorded",
+      "severity": "recommended",
       "scope_notes": [],
       "class": "interpretation"
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
+      "scope_notes": [
+        "Applies from 90 days old"
+      ],
+      "class": "interpretation"
+    },
+    {
+      "key": "rabies_wait",
+      "title": "21-day wait after a first-time rabies dose",
       "scope_notes": [
         "Applies from 90 days old"
       ],
@@ -64,8 +78,8 @@
     },
     {
       "title": "Internal + external parasite treatment within 15 days",
-      "detail": "A licensed vet administers internal + external antiparasitic treatment within 15 days before travel, recorded on the export certificate.",
-      "required": false,
+      "detail": "A licensed vet administers internal + external antiparasitic treatment within 15 days before travel, recorded on the export certificate. Confirm this before travel; Petra does not track parasite treatment.",
+      "required": true,
       "scope_notes": [],
       "class": "interpretation"
     },
@@ -138,6 +152,26 @@
         "Art. 6: CVI valid 60 days from issuance.",
         "Art. 11: first-dose rabies vaccination requires a 21-day wait before shipment."
       ]
+    },
+    {
+      "url": "https://www.aphis.usda.gov/sites/default/files/argentina-dog-cat.pdf",
+      "authority": "USDA (issuing authority) / SENASA (destination)",
+      "page_title": "Veterinary Health Certificate for Export of Dogs and Cats from the United States of America to Argentina",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "US-origin dog/cat export to Argentina — the CVI certificate itself (owner ruling 1, #2041 AC5)",
+      "supporting_requirements": [
+        "Four Certification Statements (inspection, rabies vaccination for animals over 3 months / under-90-day exemption, disease-free country, transit route) and a 21-item data table — NO microchip or electronic-identification clause anywhere. The 'Identification / Seal Numbers' field (item 18) is a cargo/shipment-seal field, not an animal microchip field."
+      ]
+    },
+    {
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/250000-254999/253681/res727-21-10-2015-1.JPG",
+      "authority": "InfoLEG (Argentina, Boletín Oficial republication) — MERCOSUR/GMC/RES. Nº 17/15, Anexo II",
+      "page_title": "Modelo de Certificado Veterinario Internacional (model CVI form, page 1 of 2)",
+      "retrieved_at": "2026-09-18",
+      "applies_to": "the model CVI form the MERCOSUR framework's own Art. 18 discretion produces",
+      "supporting_requirements": [
+        "Section I 'Identificación del animal' has 'Número de transponder (microchip) y fecha de aplicación*' and 'Ubicación del transponder (microchip)**' columns, both footnoted '* Si corresponde' / '** Si corresponde' (if applicable) — the model form's own microchip fields are explicitly OPTIONAL."
+      ]
     }
   ],
   "url": "https://petraverify.id/corridors/united-states-to-argentina",
@@ -145,7 +179,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "47399db97fdef68db0c401bac414756600627375",
+  "version": "3234495df95d2e6d9d89d7f296f07d3ea2a6d812",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-argentina.json",
   "corrections": {
     "address": "stefan@petraverify.id",

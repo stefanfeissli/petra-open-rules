@@ -5,7 +5,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "47399db97fdef68db0c401bac414756600627375",
+  "version": "3234495df95d2e6d9d89d7f296f07d3ea2a6d812",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/index.json",
   "corrections": {
     "address": "stefan@petraverify.id",
@@ -27,7 +27,7 @@
       "origin": "CA",
       "destination": "MX",
       "tier": "guidance",
-      "last_reviewed": "2026-09-04",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/canada-to-mexico",
       "dataset_url": "https://petraverify.id/corridors/canada-to-mexico/index.json"
     },
@@ -80,8 +80,8 @@
       "corridor": "united-states-to-argentina",
       "origin": "US",
       "destination": "AR",
-      "tier": "guidance",
-      "last_reviewed": "2026-09-17",
+      "tier": "qualified",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-argentina",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-argentina/index.json"
     },
@@ -90,7 +90,7 @@
       "origin": "US",
       "destination": "AU",
       "tier": "guidance",
-      "last_reviewed": "2026-06-23",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-australia",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-australia/index.json"
     },
@@ -153,7 +153,7 @@
       "origin": "US",
       "destination": "CL",
       "tier": "guidance",
-      "last_reviewed": "2026-09-05",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-chile",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-chile/index.json"
     },
@@ -287,8 +287,8 @@
       "corridor": "united-states-to-iceland",
       "origin": "US",
       "destination": "IS",
-      "tier": "guidance",
-      "last_reviewed": "2026-09-04",
+      "tier": "qualified",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-iceland",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-iceland/index.json"
     },
@@ -369,7 +369,7 @@
       "origin": "US",
       "destination": "MX",
       "tier": "guidance",
-      "last_reviewed": "2026-09-04",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-mexico",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-mexico/index.json"
     },
@@ -476,8 +476,8 @@
       "corridor": "united-states-to-south-korea",
       "origin": "US",
       "destination": "KR",
-      "tier": "guidance",
-      "last_reviewed": "2026-09-05",
+      "tier": "qualified",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-south-korea",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-south-korea/index.json"
     },
@@ -512,8 +512,8 @@
       "corridor": "united-states-to-united-arab-emirates",
       "origin": "US",
       "destination": "AE",
-      "tier": "guidance",
-      "last_reviewed": "2026-09-04",
+      "tier": "qualified",
+      "last_reviewed": "2026-09-18",
       "url": "https://petraverify.id/corridors/united-states-to-united-arab-emirates",
       "dataset_url": "https://petraverify.id/corridors/united-states-to-united-arab-emirates/index.json"
     }
