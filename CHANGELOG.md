@@ -9,6 +9,36 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-09-19 — 30ec27c
+
+_Covers every rules-touching commit from 3234495 to 30ec27c (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### united-states-to-australia
+
+- Tier changed: guidance → qualified.
+- Review date changed: 2026-09-18 → 2026-09-19.
+- Tier label changed: Guidance only → Source-checked · 2026-09-19.
+- Caveats changed: [] → [{"key":"au_health_certificate_external","text":"The Australia VEHCS export health certificate is completed and APHIS-endorsed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."}].
+
+### united-states-to-chile
+
+- Manual checklist item added: "10-day home confinement after arrival".
+- Tier changed: guidance → qualified.
+- Review date changed: 2026-09-18 → 2026-09-19.
+- Tier label changed: Guidance only → Source-checked · 2026-09-19.
+- Caveats changed: [] → [{"key":"cl_health_certificate_external","text":"The Chile Certificado Zoosanitario is completed and APHIS-endorsed outside Petra (Phase 2); Petra records that it was accepted, not that Petra issued it."}].
+
+### united-states-to-new-zealand
+
+- Manual checklist item added: "RNATT sample 3–12 months before shipment".
+- Manual checklist item removed: "RNATT sample 3–24 months before shipment".
+- Tier changed: guidance → qualified.
+- Review date changed: 2026-09-05 → 2026-09-19.
+- Tier label changed: Guidance only → Source-checked · 2026-09-19.
+- Caveats changed: [] → [{"key":"nz_cert_a_b_external","text":"NZ Health Certificates A and B are completed and APHIS-endorsed outside Petra (Phase 2); Petra records that they were accepted, not that Petra issued them."},{"key":"nz_2026_2021_transition","text":"MPI's 2026 Import Health Standard (Cats and Dogs 2026) is the standard modeled here; MPI also accepts the prior 2021 standard (CATDOG.GEN) for shipments through 2027-04-01, which this ruleset does not separately model."}].
+- Sources changed: [{"url":"https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-new-zealand","authority":"USDA APHIS","page_title":"Pet Travel From the United States to New Zealand","retrieved_at":"2026-06-23","applies_to":"US-origin dog/cat export to New Zealand","supporting_requirements":["Health Certificates A + B endorsed by APHIS (not Form 7001)","RNATT"]}] → [{"url":"https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-new-zealand","authority":"USDA APHIS","page_title":"Pet Travel From the United States to New Zealand","retrieved_at":"2026-06-23","applies_to":"US-origin dog/cat export to New Zealand","supporting_requirements":["Health Certificates A + B endorsed by APHIS (not Form 7001)","RNATT"]},{"url":"https://www.mpi.govt.nz/dmsdocument/71909","authority":"MPI (New Zealand)","page_title":"Cats and Dogs 2026 — Import Health Standard (CATSDOGS.GEN)","retrieved_at":"2026-09-18","applies_to":"US-origin dog/cat import to New Zealand — 2026 standard","supporting_requirements":["issued 12 May 2026, effective 1 July 2026; a lawful transition through 2027-04-01 during which either the 2026 or the 2021 (CATDOG.GEN) standard may be met","RNATT sample not less than 3 months and not more than 12 months before shipment (titre >= 0.5 IU/mL)"]}].
+
+
 ## 2026-09-19 — 3234495
 
 _Covers every rules-touching commit from 47399db to 3234495 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
