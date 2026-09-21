@@ -9,6 +9,191 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-09-21 — ad0572f
+
+_Covers every rules-touching commit from 6e87bb8 to ad0572f (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### united-states-to-austria
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-belgium
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-bulgaria
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-croatia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-cyprus
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-czechia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-denmark
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-estonia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-finland
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-france
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-germany
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-greece
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-hungary
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-ireland
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-italy
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-latvia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-liechtenstein
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-lithuania
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-luxembourg
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-malta
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-netherlands
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-norway
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-poland
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-portugal
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-romania
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-slovakia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-slovenia
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-spain
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-sweden
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+### united-states-to-switzerland
+
+- Tier changed: guidance → verified.
+- Review date changed: 2026-09-19 → 2026-09-20.
+- Tier label changed: Guidance only → Source-checked · 2026-09-20.
+
+
 ## 2026-09-20 — 6e87bb8
 
 _Covers every rules-touching commit from 30ec27c to 6e87bb8 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
