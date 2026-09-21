@@ -13,13 +13,13 @@
     "name": "Great Britain",
     "stem": "gb_pet_travel"
   },
-  "tier": "guidance",
-  "tier_label": "Guidance only",
+  "tier": "verified",
+  "tier_label": "Source-checked · 2026-09-21",
   "origin_scope": [
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-06-23",
+  "last_reviewed": "2026-09-21",
   "recommended_lead_time_days": 30,
   "source_url": "https://www.gov.uk/bring-pet-to-great-britain",
   "verified_scope_note": null,
@@ -99,10 +99,23 @@
   ],
   "sources": [
     {
+      "url": "https://www.gov.uk/bring-pet-to-great-britain",
+      "authority": "DEFRA / gov.uk",
+      "page_title": "Bringing your pet dog, cat or ferret to Great Britain: What you need to do",
+      "retrieved_at": "2026-09-21",
+      "applies_to": "US-origin dog/cat/ferret, non-commercial inbound to GB",
+      "supporting_requirements": [
+        "microchip before rabies vaccination",
+        "21-day first-dose rabies wait",
+        "5-day owner-travel window (Balai rules trigger past 5 days)",
+        "tapeworm treatment for dogs before entry"
+      ]
+    },
+    {
       "url": "https://www.gov.uk/bring-pet-to-great-britain/great-britain-pet-health-certificate",
       "authority": "DEFRA / gov.uk",
       "page_title": "Bringing your pet to GB: Great Britain pet health certificate",
-      "retrieved_at": "2026-06-23",
+      "retrieved_at": "2026-09-21",
       "applies_to": "US-origin dog/cat/ferret, non-commercial inbound to GB",
       "supporting_requirements": [
         "GB pet health certificate (not Form 7001)",
@@ -114,12 +127,37 @@
       "url": "https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs",
       "authority": "DEFRA / gov.uk",
       "page_title": "Bringing your pet to GB: Tapeworm treatment for dogs",
-      "retrieved_at": "2026-06-23",
+      "retrieved_at": "2026-09-21",
       "applies_to": "dogs only (cats/ferrets exempt)",
       "supporting_requirements": [
         "praziquantel/Echinococcus",
         "24-120h before arrival",
-        "exact date+time on cert"
+        "exact date+time on cert",
+        "FI/IE/XI/MT/NO direct-departure exemption"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/pet-travel-declaration-for-the-non-commercial-movement-of-animals",
+      "authority": "Animal and Plant Health Agency / DEFRA / gov.uk",
+      "page_title": "Pet travel: non-commercial declaration",
+      "retrieved_at": "2026-09-21",
+      "applies_to": "US-origin dog/cat/ferret, non-commercial inbound to GB",
+      "supporting_requirements": [
+        "standalone owner-signed form confirming no sale/transfer of ownership in the UK"
+      ]
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/604b52ec8fa8f505c6eedf55/GB_Pet_Health_Certificate_-_PDF_format.pdf",
+      "authority": "DEFRA / gov.uk",
+      "page_title": "GB Pet Health Certificate — PDF format (the model certificate itself)",
+      "retrieved_at": "2026-09-21",
+      "applies_to": "the certificate form a US-origin pet actually travels under",
+      "supporting_requirements": [
+        "microchip/tattoo must precede any vaccination (footnote 9)",
+        "10-day validity from issue, extended for sea transport (note (b))",
+        "tapeworm treatment 24-120h before scheduled entry, dogs only (footnote 10)",
+        "owner declaration: pet travels within not more than 5 days of the owner's own movement (II.1)",
+        "5-or-fewer-animals non-commercial threshold (II.2)"
       ]
     },
     {
@@ -140,7 +178,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "ad0572f244ca6609990e27fd807ce73e34cf70f3",
+  "version": "1e359d93ea6a168b5ab11afbc8c1f39ee3cc9c0d",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-great-britain.json",
   "corrections": {
     "address": "stefan@petraverify.id",

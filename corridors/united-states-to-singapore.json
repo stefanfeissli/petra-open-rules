@@ -19,9 +19,9 @@
     "US"
   ],
   "species_scope": null,
-  "last_reviewed": "2026-06-23",
+  "last_reviewed": "2026-09-21",
   "recommended_lead_time_days": 90,
-  "source_url": "https://www.avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
+  "source_url": "https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
   "verified_scope_note": null,
   "related_destination_note": null,
   "caveats": [],
@@ -159,10 +159,10 @@
   ],
   "sources": [
     {
-      "url": "https://www.avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
+      "url": "https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/",
       "authority": "AVS / NParks (Singapore)",
-      "page_title": "Importing dogs and cats (updated 2026-06-23)",
-      "retrieved_at": "2026-06-23",
+      "page_title": "Importing dogs and cats (updated 2026-09-21)",
+      "retrieved_at": "2026-09-21",
       "applies_to": "US-origin (Schedule II) dog/cat import to Singapore",
       "supporting_requirements": [
         "US is Schedule II",
@@ -173,7 +173,20 @@
         "border-inspection appointment",
         "FAVN titre 90 days–12 months pre-export",
         "conditional 10-day home quarantine",
-        "AVS Veterinary Health Certificate"
+        "AVS Veterinary Health Certificate",
+        "parasite treatment 2-7 days before export"
+      ]
+    },
+    {
+      "url": "https://isomer-user-content.by.gov.sg/30/9cf4fc30-87af-4ab9-a39a-044c52933230/DOGCAT%2083-2%20%28w_feeattd1%29%2001042026.pdf",
+      "authority": "AVS / NParks (Singapore)",
+      "page_title": "Schedule II veterinary conditions (the US falls under Schedule II) — includes the AVS veterinary certificate template",
+      "retrieved_at": "2026-09-21",
+      "applies_to": "US-origin dog/cat import to Singapore — the certificate a US-origin pet actually travels under",
+      "supporting_requirements": [
+        "parasite treatment 2-7 days before export",
+        "Section IV endorsed by an official government veterinarian of the exporting country (APHIS, for the US)",
+        "AVS-specific template, distinct from a generic USDA Form 7001"
       ]
     },
     {
@@ -193,7 +206,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "ad0572f244ca6609990e27fd807ce73e34cf70f3",
+  "version": "1e359d93ea6a168b5ab11afbc8c1f39ee3cc9c0d",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-singapore.json",
   "corrections": {
     "address": "stefan@petraverify.id",
