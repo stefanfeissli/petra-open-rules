@@ -9,6 +9,20 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-09-22 — 5683b00
+
+_Covers every rules-touching commit from e3e119b to 5683b00 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### united-states-to-northern-ireland
+
+- Manual checklist item changed: "Give DAERA advance notification" — detail updated.
+- Tier changed: guidance → verified.
+- Review date changed: 2026-06-24 → 2026-09-22.
+- Tier label changed: Guidance only → Source-checked · 2026-09-22.
+- Verified-scope note changed: (none) → Verified for direct entry via a Travellers' Point of Entry on the EU Animal Health Certificate. Entry via Great Britain is a two-stage movement under GB rules first..
+- Sources changed: [{"url":"https://www.daera-ni.gov.uk/articles/travelling-pets","authority":"DAERA (Department of Agriculture, Environment and Rural Affairs, NI)","page_title":"Travelling with Pets","retrieved_at":"2026-06-24","applies_to":"direct third-country (e.g. US) entry into Northern Ireland, non-commercial","supporting_requirements":["EU Animal Health Certificate (10-day entry)","Travellers' Point of Entry","advance notification","documentary + identity checks","microchip before rabies","tapeworm 24-120h (dogs)","5-day owner accompaniment","max 5 pets","assistance dogs same rules"]},{"url":"https://www.daera-ni.gov.uk/articles/great-britain-northern-ireland-pet-travel-guidance","authority":"DAERA","page_title":"Great Britain to Northern Ireland Pet Travel Guidance","retrieved_at":"2026-06-24","applies_to":"GB->NI movements","supporting_requirements":["GB residents need the NI Pet Travel Document (lifetime)","NI residents need only a microchip","onward EU travel needs an EU AHC","PTD + microchip checked at port/airport","assistance dogs included"]},{"url":"https://www.gov.uk/apply-for-northern-ireland-pet-travel-document","authority":"GOV.UK / APHA","page_title":"Apply for a Northern Ireland pet travel document","retrieved_at":"2026-06-24","applies_to":"GB residents bringing a pet GB->NI from 4 June 2025","supporting_requirements":["GB residency required","free, lasts the pet's lifetime","microchip","declaration of no onward EU travel"]}] → [{"url":"https://www.daera-ni.gov.uk/articles/travelling-pets","authority":"DAERA (Department of Agriculture, Environment and Rural Affairs, NI)","page_title":"Travelling with Pets","retrieved_at":"2026-09-22","applies_to":"direct third-country (e.g. US) entry into Northern Ireland, non-commercial","supporting_requirements":["EU Animal Health Certificate (10-day entry)","Travellers' Point of Entry","advance notification (10 days, air arrivals)","documentary + identity checks","microchip before rabies","tapeworm 24-120h (dogs)","5-day owner accompaniment","max 5 pets","assistance dogs same rules"]},{"url":"https://www.daera-ni.gov.uk/articles/great-britain-northern-ireland-pet-travel-guidance","authority":"DAERA","page_title":"Great Britain to Northern Ireland Pet Travel Guidance","retrieved_at":"2026-09-22","applies_to":"GB->NI movements","supporting_requirements":["GB residents need the NI Pet Travel Document (lifetime)","NI residents need only a microchip","onward EU travel needs an EU AHC","PTD + microchip checked at port/airport","assistance dogs included","10-working-day air-arrival notice for any GB->NI flight, PTD or NI-resident (distinct from the direct-entry route's own period)"]},{"url":"https://www.gov.uk/apply-for-northern-ireland-pet-travel-document","authority":"GOV.UK / APHA","page_title":"Apply for a Northern Ireland pet travel document","retrieved_at":"2026-09-22","applies_to":"GB residents bringing a pet GB->NI from 4 June 2025","supporting_requirements":["GB residency required","free, lasts the pet's lifetime","microchip","declaration of no onward EU travel"]}].
+
+
 ## 2026-09-21 — e3e119b
 
 _Covers every rules-touching commit from 1e359d9 to e3e119b (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
