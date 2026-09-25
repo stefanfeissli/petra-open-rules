@@ -9,6 +9,15 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-09-25 — 89ba5e2
+
+_Covers every rules-touching commit from 5683b00 to 89ba5e2 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### united-states-to-singapore
+
+- Tier label changed: Guidance only → Source-checked · 2026-09-21.
+
+
 ## 2026-09-22 — 5683b00
 
 _Covers every rules-touching commit from e3e119b to 5683b00 (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
