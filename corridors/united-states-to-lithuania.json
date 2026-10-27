@@ -10,7 +10,7 @@
     "name": "Lithuania"
   },
   "ruleset": {
-    "name": "EU (Reg 576/2013)",
+    "name": "EU (Delegated Regulation (EU) 2026/131)",
     "stem": "eu_576_2013"
   },
   "tier": "verified",
@@ -58,7 +58,7 @@
     },
     {
       "key": "noncommercial_pet_count",
-      "title": "Non-commercial movement (5 animals or fewer)",
+      "title": "Non-commercial movement (five dogs, cats or ferrets per movement)",
       "scope_notes": [],
       "class": "interpretation"
     },
@@ -95,6 +95,29 @@
         "12-week minimum age at the time of primary vaccination (Annex VII Part 1, ¶2(b))",
         "vaccination date must not precede the identification/microchip date (¶2(d))",
         "21-day wait from completion of the primary vaccination protocol before protective immunity is established (¶2(e))"
+      ]
+    },
+    {
+      "url": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_en",
+      "authority": "European Commission (DG SANTE)",
+      "page_title": "Travelling with a pet within the EU",
+      "retrieved_at": "2026-10-27",
+      "applies_to": "dog/cat/ferret non-commercial movement between EU countries: legal basis and pet-count limit",
+      "supporting_requirements": [
+        "legal basis: Commission Delegated Regulation (EU) 2026/131 regulates non-commercial pet travel, which does not involve a transfer of ownership or sale",
+        "limit: five dogs, cats or ferrets per movement (per vehicle when travelling by private vehicle: \"5 in a single vehicle\")",
+        "exception: more than five only for competitions, exhibitions or sporting events, with written registration evidence and animals more than six months old"
+      ]
+    },
+    {
+      "url": "https://publications.europa.eu/resource/celex/32026R0131",
+      "authority": "European Union (Publications Office)",
+      "page_title": "Commission Delegated Regulation (EU) 2026/131 of 20 January 2026, OJ L, 27.3.2026",
+      "retrieved_at": "2026-10-27",
+      "applies_to": "dog/cat/ferret non-commercial movement: the governing instrument, and the five-per-movement limit",
+      "supporting_requirements": [
+        "legal basis: Delegated Regulation (EU) 2026/131 replaces Regulation (EU) No 576/2013, whose transitional application ended on 21 April 2026 (recital 1)",
+        "limit: not more than five dogs, cats or ferrets per single non-commercial movement (recital 13); more than five without the competition derogation is not a non-commercial movement (recital 14)"
       ]
     },
     {
@@ -164,7 +187,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d7b4411b411758c43b97496e4cbc7d3c3b003483",
+  "version": "297dfaa181d4f6f82a00cc2b8fec44549de2722e",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-lithuania.json",
   "corrections": {
     "address": "stefan@petraverify.id",
