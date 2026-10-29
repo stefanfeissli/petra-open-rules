@@ -37,7 +37,7 @@
       "key": "rabies",
       "title": "Rabies vaccination valid (on/after the microchip)",
       "phase": "do_now",
-      "description": "The rabies vaccination must be valid on the entry date; a first-time or lapsed dose adds a 21-day wait before it counts as valid for travel.",
+      "description": "The rabies vaccination must be valid on the entry date. After a first-time or lapsed dose, the wait before it counts as valid for travel is at least 21 full days after the first vaccination or the last dose of the first course; longer for some vaccines, so confirm the valid-from date with your vet.",
       "scope_notes": [],
       "class": "interpretation"
     },
@@ -164,12 +164,15 @@
       "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-united-kingdom-great-britain-england-scotland",
       "authority": "USDA APHIS",
       "page_title": "Pet Travel From the US to the United Kingdom/Great Britain",
-      "retrieved_at": "2026-06-23",
+      "retrieved_at": "2026-10-28",
       "applies_to": "US-origin dog, non-commercial export to GB",
       "supporting_requirements": [
         "GB pet health certificate completed by USDA-accredited vet + APHIS endorsement (NOT Form 7001)",
         "microchip on/before rabies",
-        "21-day rabies wait (first/lapsed)"
+        "21-day rabies wait (first/lapsed)",
+        "accredited vet electronic signature accepted",
+        "APHIS endorsement ink-signed and embossed",
+        "tapeworm treatment before or after APHIS endorsement; section II.4 signed after the treatment"
       ]
     }
   ],
@@ -178,7 +181,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "297dfaa181d4f6f82a00cc2b8fec44549de2722e",
+  "version": "db9af4139873c41f01b4b284b5ca6769d1051dbf",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-great-britain.json",
   "corrections": {
     "address": "stefan@petraverify.id",
