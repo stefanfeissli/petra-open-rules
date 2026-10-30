@@ -170,6 +170,17 @@
       ]
     },
     {
+      "url": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-germany",
+      "authority": "USDA APHIS",
+      "page_title": "Pet Travel From the US to the European Union",
+      "retrieved_at": "2026-10-28",
+      "applies_to": "US-vaccinated pets: validity of a primary rabies vaccination, and lapse (#2209)",
+      "supporting_requirements": [
+        "rabies vaccination valid (one-year primary cap)",
+        "21-day wait after a primary rabies vaccination (a lapse resets the dose to primary)"
+      ]
+    },
+    {
       "url": "http://web.archive.org/web/20260607015858/https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-united-arab-emirates",
       "authority": "USDA APHIS (via Wayback Machine mirror — live aphis.usda.gov resets automated GETs; the UAE page carries the same shared EU-transition banner as every other APHIS pet-travel country page, including Germany)",
       "page_title": "Pet Travel From the United States to United Arab Emirates (EU transition banner)",
@@ -187,7 +198,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "600c4e23ab733a7c55b038f44b2f5dc1ba0336b5",
+  "version": "161b2e46ece9418e67576610256fd063a5c82277",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-croatia.json",
   "corrections": {
     "address": "stefan@petraverify.id",
