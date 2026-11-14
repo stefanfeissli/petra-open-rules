@@ -9,6 +9,745 @@ change, review-date change). No hand-written entries.
 
 <!-- entries appended below by the publisher; newest first -->
 
+## 2026-11-14 — 9d99bdd
+
+_Covers every rules-touching commit from d4652bb to 9d99bdd (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._
+
+### australia-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### canada-to-mexico
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parainfluenza vaccination valid" (`parainfluenza`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Cats: no health certificate required — inspected by SENASICA on arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Present the pet to SENASICA / OISA inspection on arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Travel with a clean carrier — no bedding, toys, treats, or animal-origin items" — effective_from, effective_to updated.
+- Manual checklist item changed: "Carry medication + vaccination records" — effective_from, effective_to updated.
+- Manual checklist item changed: "Check your airline's pet-transport documentation rules" — effective_from, effective_to updated.
+- Manual checklist item changed: "Return leg (dogs to the US): New World screwworm certification" — effective_from, effective_to updated.
+- Manual checklist item changed: "This guidance covers ordinary personal pet travel" — effective_from, effective_to updated.
+
+### great-britain-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### ireland-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### japan-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### mexico-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### new-zealand-to-united-states
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "At least 6 months old at arrival" (`min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Low-risk travel history (prior 6 months)" (`travel_history`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "CDC Dog Import Form receipt accepted" (`cdc_import_receipt`) — effective_from, effective_to, supersedes updated.
+
+### united-states-to-argentina
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a first-time rabies dose" (`rabies_wait`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Argentina international veterinary certificate (APHIS-endorsed)" (`ar_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Accompanied dogs and cats: no import application, notice, or landing permit required" — effective_from, effective_to, sources updated.
+- Manual checklist item changed: "Cargo (unaccompanied) shipments: 24-business-hour border-post notice — still no import application" — effective_from, effective_to, sources updated.
+- Manual checklist item changed: "Internal + external parasite treatment within 15 days" — effective_from, effective_to updated.
+- Manual checklist item changed: "Under-3-month exemption: age + 90-day urban-rabies-free property certification" — effective_from, effective_to, sources updated.
+
+### united-states-to-australia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies antibody titre (RNATT ≥ 0.5 IU/mL)" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Australia export health certificate (VEHCS, endorsed ≤5 days before export)" (`au_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Plan 6–12 months ahead — Australia is strictest" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm your origin's DAFF Group classification" — effective_from, effective_to updated.
+- Manual checklist item changed: "Apply for the DAFF import permit" — effective_from, effective_to updated.
+- Manual checklist item changed: "180-day wait after the RNATT sample reaches the lab" — effective_from, effective_to updated.
+- Manual checklist item changed: "Identity verification BEFORE the RNATT to cut quarantine" — effective_from, effective_to updated.
+- Manual checklist item changed: "Reserve a quarantine slot at Mickleham PEQ Facility (Melbourne)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Parasite treatment + pre-export inspection" — effective_from, effective_to updated.
+
+### united-states-to-austria
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-belgium
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-belize
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "28-day wait after a first rabies dose; no dose before 12 weeks old" (`rabies_wait`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Veterinary health certificate (within 14 days; APHIS endorsement NOT required)" (`bz_health_certificate`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes, sources updated.
+- Manual checklist item changed: "Apply for the BAHA import permit" — effective_from, effective_to updated.
+- Manual checklist item changed: "Notify BAHA at least 2 days before arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Puppies: first rabies dose not before 12 weeks (84 days) old" — effective_from, effective_to updated.
+- Manual checklist item changed: "Adult dogs 15 months+: booster-history exemption from the 28-day wait" — effective_from, effective_to updated.
+- Manual checklist item changed: "Inspection fee on arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Endoparasite treatment within 30 days" — effective_from, effective_to updated.
+- Manual checklist item changed: "First rabies dose ≥28 days before travel" — effective_from, effective_to updated.
+- Manual checklist item changed: "If your pet is under 4 months old: expect home quarantine" — effective_from, effective_to updated.
+
+### united-states-to-brazil
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Certificado Veterinário Internacional (CVI, APHIS-endorsed)" (`br_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Internal + external parasite treatment within 15 days of CVI issue" — effective_from, effective_to updated.
+- Manual checklist item changed: "Verify all paperwork BEFORE boarding" — effective_from, effective_to updated.
+- Manual checklist item changed: "Under 90 days old: unvaccinated entry requires the certificate's age/no-urban-rabies attestation" — effective_from, effective_to updated.
+
+### united-states-to-bulgaria
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-canada
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (certificate in English or French)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Confirm this is a non-commercial, privately owned pet movement" — effective_from, effective_to updated.
+- Manual checklist item changed: "Health certificate may be required: unaccompanied or 3+ dogs 8 months old or younger" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm this is a domestic cat (or an F5+ generation hybrid)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Rabies certificate in English or French, identifying the animal" — effective_from, effective_to updated.
+- Manual checklist item changed: "Why rabies isn't being requested: pet is under 3 months" — effective_from, effective_to updated.
+- Manual checklist item changed: "Proof of the kitten's age (under 3 months)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Present the pet to a CBSA officer on arrival" — effective_from, effective_to updated.
+
+### united-states-to-chile
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a first-time or lapsed rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Chile Certificado Zoosanitario (APHIS-endorsed)" (`cl_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Internal + external parasite treatment between 5 and 30 days before entry" — effective_from, effective_to updated.
+- Manual checklist item changed: "Certificate must be in Spanish AND English" — effective_from, effective_to updated.
+- Manual checklist item changed: "Be ready for SAG inspection at the port of entry" — effective_from, effective_to updated.
+- Manual checklist item changed: "10-day home confinement after arrival" — effective_from, effective_to updated.
+
+### united-states-to-colombia
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a first-time rabies dose" (`rabies_wait`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parainfluenza vaccination valid" (`parainfluenza`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Colombia veterinary health certificate (examined within 10 days)" (`co_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Pit-bull-type breeds are prohibited" — effective_from, effective_to updated.
+- Manual checklist item changed: "Rabies: first-time dose ≥21 days before shipment, pet 15 weeks or older" — effective_from, effective_to updated.
+- Manual checklist item changed: "Under 15 weeks: unvaccinated entry requires a home quarantine" — effective_from, effective_to updated.
+- Manual checklist item changed: "Antiparasitic treatment within 60 days of shipment" — effective_from, effective_to updated.
+- Manual checklist item changed: "Entry certificate (CIS) issued at the airport" — effective_from, effective_to updated.
+
+### united-states-to-costa-rica
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Costa Rica International Veterinary Certificate (bilingual, APHIS-endorsed)" (`cr_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parainfluenza vaccination valid" (`parainfluenza`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Costa Rica certificate: Spanish or English, USDA-accredited vet, APHIS-endorsed" — effective_from, effective_to updated.
+- Manual checklist item changed: "Internal + external parasite treatment within 15 days" — effective_from, effective_to updated.
+- Manual checklist item changed: "Visual inspection on arrival at SJO" — effective_from, effective_to updated.
+
+### united-states-to-croatia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-cyprus
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-czechia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-denmark
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-estonia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-finland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-france
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-germany
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-great-britain
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Great Britain pet health certificate (APHIS-endorsed)" (`gb_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Travel within 5 days of your pet" — effective_from, effective_to updated.
+- Manual checklist item changed: "APHIS endorsement within 10 days of arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Sign the non-commercial declaration" — effective_from, effective_to updated.
+- Manual checklist item changed: "Approved route + manifest cargo" — effective_from, effective_to updated.
+- Manual checklist item changed: "Airline brachycephalic + breed restrictions" — effective_from, effective_to updated.
+
+### united-states-to-greece
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-hawaii
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination (≥2 lifetime doses)" (`rabies`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Rabies antibody titer (OIE-FAVN)" (`favn_titer`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Identity attestation issued" (`identity`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "CVI certifying statement: New World Screwworm freedom" — effective_from, effective_to updated.
+- Manual checklist item changed: "Apply online via HIPOP" — effective_from, effective_to updated.
+- Manual checklist item changed: "Document deadline depends on your arrival airport" — effective_from, effective_to updated.
+- Manual checklist item changed: "Two rabies vaccinations in the pet's lifetime" — effective_from, effective_to updated.
+- Manual checklist item changed: "OIE-FAVN titer timing: arrive 30 days–36 months after the lab receives the sample" — effective_from, effective_to updated.
+- Manual checklist item changed: "Microchip must be implanted before (or at) the FAVN blood draw" — effective_from, effective_to updated.
+- Manual checklist item changed: "Health certificate within 14 days of arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Tick treatment within 14 days of arrival, recorded on the certificate" — effective_from, effective_to updated.
+
+### united-states-to-hungary
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-iceland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies serology titre (FAVN/RNATT ≥0.5 IU/ml)" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid (dogs)" (`leptospirosis`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Official Iceland import health certificate" (`is_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Apply for the MAST import permit" — effective_from, effective_to updated.
+- Manual checklist item changed: "No USDA endorsement is required for dogs or cats" — effective_from, effective_to updated.
+- Manual checklist item changed: "Reserve a quarantine space (≥14 days) before travel" — effective_from, effective_to updated.
+- Manual checklist item changed: "6-month pre-export residency" — effective_from, effective_to updated.
+- Manual checklist item changed: "Rabies titre drawn at least 30 days after vaccination" — effective_from, effective_to updated.
+- Manual checklist item changed: "Internal + external parasite treatment 21-28 days before importation" — effective_from, effective_to updated.
+- Manual checklist item changed: "Second internal + external parasite treatment AND health exam, 5-10 days before importation" — effective_from, effective_to updated.
+- Manual checklist item changed: "Single port of entry: Keflavík" — effective_from, effective_to updated.
+
+### united-states-to-ireland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-italy
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-japan
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination (2 or more qualifying doses)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies antibody titre (FAVN, 0.5 IU/mL or greater)" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "APHIS Form AC (owner declaration + health certificate, APHIS-endorsed)" (`form_ac`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Plan 7+ months ahead: Japan is strict" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm departure is from the mainland United States (not Hawaii or Guam)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm the second rabies dose was given 30 days or more after the first, within the first dose's validity" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm your pet was at least 91 days old at the first qualifying rabies dose" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm all qualifying rabies doses used inactivated or recombinant vaccines" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm the microchip was implanted on or before the first qualifying rabies dose" — effective_from, effective_to updated.
+- Manual checklist item changed: "Exception: a first rabies dose before the microchip may still count" — effective_from, effective_to updated.
+- Manual checklist item changed: "Confirm the rabies titre is at least 0.5 IU/mL from a MAFF-designated laboratory" — effective_from, effective_to updated.
+- Manual checklist item changed: "Submit advance notification to AQS at least 40 days before arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Pre-export clinical inspection within 10 days of boarding" — effective_from, effective_to updated.
+- Manual checklist item changed: "180-day wait after the qualifying titre blood draw" — effective_from, effective_to updated.
+
+### united-states-to-latvia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-liechtenstein
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+- Manual checklist item changed: "Switzerland/Liechtenstein: Amicus dog registration on import + entry points" — effective_from, effective_to updated.
+- Manual checklist item changed: "Switzerland/Liechtenstein: entry control and points of entry" — effective_from, effective_to updated.
+
+### united-states-to-lithuania
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-luxembourg
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-malta
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-mexico
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parainfluenza vaccination valid" (`parainfluenza`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "NWS inspection certificate for pet dogs (US to Mexico, effective 2026-08-03)" — effective_from, effective_to, sources, applicability_assumptions updated.
+- Manual checklist item changed: "Cats: no health certificate required — inspected by SENASICA on arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Present the pet to SENASICA / OISA inspection on arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Travel with a clean carrier — no bedding, toys, treats, or animal-origin items" — effective_from, effective_to updated.
+- Manual checklist item changed: "Carry medication + vaccination records" — effective_from, effective_to updated.
+- Manual checklist item changed: "Check your airline's pet-transport documentation rules" — effective_from, effective_to updated.
+- Manual checklist item changed: "Return leg (dogs to the US): New World screwworm certification" — effective_from, effective_to updated.
+- Manual checklist item changed: "This guidance covers ordinary personal pet travel" — effective_from, effective_to updated.
+
+### united-states-to-netherlands
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-new-zealand
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies antibody titre (RNATT ≥ 0.5 IU/mL)" (`favn_titer`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "NZ Health Certificate A (home-country attestations, APHIS-endorsed)" (`nz_health_certificate_a`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "NZ Health Certificate B (pre-export inspection / seal, APHIS-endorsed)" (`nz_health_certificate_b`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Read MPI's CATDOG.GEN import health standard" — effective_from, effective_to updated.
+- Manual checklist item changed: "Apply for the MPI Permit to Import" — effective_from, effective_to updated.
+- Manual checklist item changed: "RNATT sample 3–12 months before shipment" — effective_from, effective_to updated.
+- Manual checklist item changed: "Dog-only tests + double parasite treatments" — effective_from, effective_to updated.
+- Manual checklist item changed: "Reserve an MPI-facility quarantine slot (min 10 days)" — effective_from, effective_to updated.
+
+### united-states-to-northern-ireland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate for onward EU travel" (`eu_ahc_onward`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter via a Travellers' Point of Entry" — effective_from, effective_to updated.
+- Manual checklist item changed: "Give DAERA advance notification" — effective_from, effective_to updated.
+- Manual checklist item changed: "DAERA documentary and identity checks" — effective_from, effective_to updated.
+- Manual checklist item changed: "Travel within 5 days of your pet" — effective_from, effective_to updated.
+- Manual checklist item changed: "Maximum 5 pets (non-commercial)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Apply for the Northern Ireland Pet Travel Document (PTD)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Sign the declaration of no onward EU travel" — effective_from, effective_to updated.
+- Manual checklist item changed: "Northern Ireland resident: microchip only" — effective_from, effective_to updated.
+- Manual checklist item changed: "Two-stage movement via Great Britain" — effective_from, effective_to updated.
+
+### united-states-to-norway
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Tapeworm treatment (Echinococcus), 24-120h before arrival" (`tapeworm`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-panama
+
+- Requirement changed: "Microchip recorded" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus / hepatitis vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parainfluenza vaccination valid" (`parainfluenza`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Panama international health certificate (APHIS-endorsed + legalized)" (`pa_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Email MINSA the Home Quarantine Request / Solicitud de Ingreso (cam@minsa.gob.pa)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Internal + external parasite treatment before shipment" — effective_from, effective_to updated.
+- Manual checklist item changed: "Pet at least 4 months old; first rabies dose ≥30 days before arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Legalize the APHIS-endorsed certificate (consular stamp or apostille, within 30 days)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Plan the airline-validity window" — effective_from, effective_to updated.
+- Manual checklist item changed: "On-arrival processing fees" — effective_from, effective_to updated.
+- Manual checklist item changed: "Home quarantine on arrival if required" — effective_from, effective_to updated.
+
+### united-states-to-poland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-portugal
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+- Manual checklist item changed: "Portugal-only: advance notification ≥48 hours before arrival" — effective_from, effective_to updated.
+
+### united-states-to-romania
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-singapore
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies antibody titre (FAVN/RNAT ≥ 0.5 IU/mL), 90-365 days before export" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine adenovirus vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline herpesvirus (FVR) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "AVS Veterinary Health Certificate (APHIS-endorsed)" (`sg_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Confirm ISO 11784/11785 microchip compatibility (or a compatible reader will accompany the animal)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Obtain a Singapore dog or cat licence (via PALS)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Apply for the AVS import licence" — effective_from, effective_to updated.
+- Manual checklist item changed: "Obtain a Customs In-Payment / GST permit before arrival" — effective_from, effective_to updated.
+- Manual checklist item changed: "Book a border-inspection appointment (≥5 days before arrival)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Post-arrival quarantine is conditional" — effective_from, effective_to updated.
+- Manual checklist item changed: "Airline captain's declaration (Schedule I/II)" — effective_from, effective_to updated.
+- Manual checklist item changed: "Parasite treatment 2–7 days before export" — effective_from, effective_to updated.
+
+### united-states-to-slovakia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-slovenia
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-south-korea
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes, sources updated.
+- Requirement changed: "Rabies antibody titre (FAVN ≥ 0.5 IU/mL)" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Korea International Health Certificate (VEHCS, APHIS-endorsed within 30 days)" (`kr_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Microchip before the rabies vaccination" — effective_from, effective_to updated.
+- Manual checklist item changed: "Animals under 90 days: rabies vaccine AND titre exemption" — effective_from, effective_to updated.
+- Manual checklist item changed: "Be ready for on-arrival inspection at QIA" — effective_from, effective_to updated.
+
+### united-states-to-spain
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-sweden
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+
+### united-states-to-switzerland
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid (on/after the microchip)" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination at 12 weeks or older" (`rabies_min_age`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "EU Animal Health Certificate (APHIS-endorsed)" (`eu_ahc`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Non-commercial movement (five dogs, cats or ferrets per movement)" (`noncommercial_pet_count`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Owner or authorised person travels within 5 days" (`owner_accompaniment`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Signed non-commercial declaration" (`noncommercial_declaration`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Enter the EU within 10 days of endorsement" — effective_from, effective_to updated.
+- Manual checklist item changed: "Switzerland/Liechtenstein: Amicus dog registration on import + entry points" — effective_from, effective_to updated.
+- Manual checklist item changed: "Switzerland/Liechtenstein: entry control and points of entry" — effective_from, effective_to updated.
+
+### united-states-to-united-arab-emirates
+
+- Requirement changed: "Microchip recorded (ISO 11784/11785)" (`microchip`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies vaccination valid" (`rabies`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "21-day wait after a primary or lapsed rabies vaccination" (`rabies_wait`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Rabies antibody titre (RNATT ≥ 0.5 IU/mL), ≤12 months before travel" (`favn_titer`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine distemper vaccination valid" (`distemper`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine parvovirus vaccination valid" (`parvovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Canine infectious hepatitis (adenovirus) vaccination valid" (`adenovirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Leptospirosis vaccination valid" (`leptospirosis`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline panleukopenia vaccination valid" (`panleukopenia`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline rhinotracheitis (herpesvirus) vaccination valid" (`feline_herpesvirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "Feline calicivirus vaccination valid" (`calicivirus`) — effective_from, effective_to, supersedes updated.
+- Requirement changed: "MOCCAE Model Veterinary Health Certificate (USDA-VS endorsed, ≤10 days)" (`ae_health_certificate`) — effective_from, effective_to, supersedes updated.
+- Manual checklist item changed: "Apply for the MOCCAE import permit" — effective_from, effective_to updated.
+- Manual checklist item changed: "Animals must be at least 15 weeks old" — effective_from, effective_to updated.
+- Manual checklist item changed: "Parasite treatment within 14 days, recorded on the certificate" — effective_from, effective_to updated.
+- Manual checklist item changed: "Annual import quota: max 2 pets" — effective_from, effective_to updated.
+- Manual checklist item changed: "Check the banned-breeds list" — effective_from, effective_to updated.
+- Manual checklist item changed: "No rabies booster given after the titre was drawn" — effective_from, effective_to updated.
+- Manual checklist item changed: "No mixing with other pet animals in transit" — effective_from, effective_to updated.
+- Manual checklist item changed: "Bengal/Serval cats: fifth-generation pedigree certificate" — effective_from, effective_to updated.
+
+
 ## 2026-10-31 — d4652bb
 
 _Covers every rules-touching commit from 161b2e4 to d4652bb (more than one merge, batched by the publisher — see .github/workflows/open-rules-publish.yml)._

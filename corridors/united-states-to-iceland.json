@@ -39,19 +39,37 @@
       "key": "microchip",
       "title": "Microchip recorded (ISO 11784/11785)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "favn_titer",
       "title": "Rabies serology titre (FAVN/RNATT ≥0.5 IU/ml)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "leptospirosis",
@@ -59,13 +77,27 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://www.mast.is/static/files/innflutningur_hdkt20/leidbein_d2_en.pdf"
+      ]
     },
     {
       "key": "is_health_certificate",
       "title": "Official Iceland import health certificate",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -74,35 +106,60 @@
       "detail": "An import permit from MAST is required before travel (fee ISK 39,633 per the owner-captured MAST page, 2026-09-18). Apply well in advance; entry without it is refused. Confirmed both by MAST directly and by APHIS: \"An import permit issued by Iceland Food and Veterinary Authority (MAST) is required to import pets to the country.\" No USDA endorsement is required for pet dogs or cats to Iceland — see the checklist note below.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "No USDA endorsement is required for dogs or cats",
       "detail": "APHIS is explicit: \"At this time USDA endorsement is NOT required for pet dogs or cats to Iceland.\" Do not seek or pay for a USDA endorsement for this route.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Reserve a quarantine space (≥14 days) before travel",
       "detail": "Imported dogs and cats are held in quarantine at an approved facility for at least 14 days. A confirmed quarantine reservation is mandatory before travel.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "6-month pre-export residency",
       "detail": "The animal must have resided in the origin (export) country for at least 6 months before export, or since birth. MAST's own D2 guidance: dogs can meet the import requirements at the earliest around 7 months of age (docs/verification-packages/iceland-primary-2026-09/). Confirm this before travel; Petra does not track residency history.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Rabies titre drawn at least 30 days after vaccination",
       "detail": "The rabies serology sample must be drawn at least 30 days after the rabies vaccination. (Separately, from a Category-2 origin including the US, Petra already checks that you wait at least 90 days after the sampling date before travel.) Confirm the 30-day vaccination-to-sample gap; Petra does not track vaccination-vs-titre sequencing.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Internal + external parasite treatment 21-28 days before importation",
@@ -111,7 +168,12 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Second internal + external parasite treatment AND health exam, 5-10 days before importation",
@@ -120,14 +182,24 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Single port of entry: Keflavík",
       "detail": "Animals may only enter Iceland through Keflavík airport.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -175,7 +247,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-iceland.json",
   "corrections": {
     "address": "stefan@petraverify.id",

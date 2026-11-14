@@ -43,27 +43,51 @@
       "title": "Microchip recorded (ISO 11784/11785)",
       "description": "Japan requires an ISO 11784/11785 microchip implanted before the first qualifying rabies vaccination — an earlier vaccination does not count toward the requirement.",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination (2 or more qualifying doses)",
       "description": "Japan requires two or more rabies vaccinations on or after the microchip, the second dose at least 30 days after the first, followed by a qualifying titre and a 180-day wait before arrival.",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "favn_titer",
       "title": "Rabies antibody titre (FAVN, 0.5 IU/mL or greater)",
       "description": "Japan requires a rabies antibody titre of at least 0.5 IU/mL from a MAFF-designated laboratory, drawn after the second vaccination — arrival must fall between 180 days and 2 years after the blood draw.",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "form_ac",
       "title": "APHIS Form AC (owner declaration + health certificate, APHIS-endorsed)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -72,77 +96,132 @@
       "detail": "The 180-day wait from the titre blood draw is the gating constraint (japan.md R5). Starting later means quarantine on arrival of up to 180 days.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm departure is from the mainland United States (not Hawaii or Guam)",
       "detail": "Hawaii and Guam are on Japan's designated-region pathway (APHIS Form AB) with different rules; this checklist covers the mainland-US (non-designated) route only. If departing from Hawaii or Guam, follow the designated-region process with your vet and AQS.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm the second rabies dose was given 30 days or more after the first, within the first dose's validity",
       "detail": "Japan requires the second qualifying rabies vaccination 30 days or more after the first (the first dose's day counts as day 0) and within the first dose's effective period. Petra checks the two-dose count but not the interval between doses; confirm it from the vaccination records.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm your pet was at least 91 days old at the first qualifying rabies dose",
       "detail": "Japan requires the animal to be at least 91 days old at the time of the first qualifying rabies vaccination. Petra does not check age at vaccination for Japan; confirm it against the date of birth and the vaccination record.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm all qualifying rabies doses used inactivated or recombinant vaccines",
       "detail": "Japan accepts only inactivated or recombinant rabies vaccines; RNA vaccines are not approved. Petra does not record the vaccine product type; confirm it with your vet.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm the microchip was implanted on or before the first qualifying rabies dose",
       "detail": "Vaccinations given before the microchip do not count toward Japan's requirements (same-day is allowed). Petra enforces this ordering only when the microchip's implant date is on file; confirm it from the records, and add the implant date to the microchip record if you have it.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Exception: a first rabies dose before the microchip may still count",
       "detail": "Japan's own guidance names one exception to 'microchip before the first dose': if the first vaccination was given before the microchip, the microchip may instead be implanted on or before the SECOND vaccination, provided the APHIS-endorsed export health certificate documents that the first dose predates the microchip AND the pet's rabies antibody titre (≥0.5 IU/mL) was drawn from a blood sample taken on the same day as the second vaccination. Petra's automated check above requires the microchip on or before the first dose and does not evaluate this exception; if your pet's history matches it, discuss the documentation with your vet before relying on Petra's readiness check for this requirement.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Confirm the rabies titre is at least 0.5 IU/mL from a MAFF-designated laboratory",
       "detail": "Japan requires a rabies antibody titre equal to or greater than 0.5 IU/mL, tested at a laboratory designated by MAFF, on a blood sample drawn after the second qualifying vaccination. Petra checks the titre's sample-date window but not the value or the laboratory; confirm both on the laboratory report.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Submit advance notification to AQS at least 40 days before arrival",
       "detail": "Notify the Animal Quarantine Service at the expected port of entry not less than 40 days before arrival; AQS reviews it and issues an Approval of Import Inspection. A notification filed later than 40 days out is in principle not accepted. This tick records that you submitted the notification; the approval itself comes from AQS.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Pre-export clinical inspection within 10 days of boarding",
       "detail": "Within 10 days before boarding, a clinical inspection by a veterinarian is required and is recorded on the APHIS Form AC. Dogs must additionally be certified free of clinical signs of leptospirosis; cats need the rabies assessment only.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "180-day wait after the qualifying titre blood draw",
       "detail": "The clock starts the day the blood sample is drawn (day 0); the titre is valid for 2 years from that date. Petra checks this window against your trip's arrival date. Book travel only after the 180-day wait is complete.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -193,7 +272,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-japan.json",
   "corrections": {
     "address": "stefan@petraverify.id",

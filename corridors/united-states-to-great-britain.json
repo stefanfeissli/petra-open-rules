@@ -31,7 +31,13 @@
       "title": "Microchip recorded (ISO 11784/11785)",
       "description": "The microchip must be implanted before, or on the same day as, the rabies vaccination used for travel.",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
@@ -39,14 +45,26 @@
       "phase": "do_now",
       "description": "The rabies vaccination must be valid on the entry date. After a first-time or lapsed dose, the wait before it counts as valid for travel is at least 21 full days after the first vaccination or the last dose of the first course; longer for some vaccines, so confirm the valid-from date with your vet.",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "gb_health_certificate",
       "title": "Great Britain pet health certificate (APHIS-endorsed)",
       "phase": "final_visit",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "tapeworm",
@@ -56,7 +74,13 @@
         "Applies to: dog",
         "Waived when departing directly from: Finland, Ireland, Northern Ireland, Malta, Norway"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -65,14 +89,24 @@
       "detail": "For ordinary non-commercial travel, your pet must enter Great Britain within 5 days before or after you. Outside that window it counts as commercial import with stricter rules.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "APHIS endorsement within 10 days of arrival",
       "detail": "USDA APHIS must endorse the health certificate, and the endorsement must be completed within 10 days of arrival in Great Britain. Build the APHIS turnaround into your timeline.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Sign the non-commercial declaration",
@@ -80,21 +114,36 @@
       "required": true,
       "url": "https://www.gov.uk/government/publications/pet-travel-declaration-for-the-non-commercial-movement-of-animals",
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Approved route + manifest cargo",
       "detail": "Enter via an approved air/sea/tunnel route. Pets flying normally travel as manifest cargo, not checked baggage or in the cabin (a UK-recognised assistance dog may be an exception — confirm with the airline AND the arrival airport before booking).",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Airline brachycephalic + breed restrictions",
       "detail": "Some carriers refuse short-nosed breeds or certain dog breeds. Confirm with the airline at booking, not at the gate.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -181,7 +230,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-great-britain.json",
   "corrections": {
     "address": "stefan@petraverify.id",

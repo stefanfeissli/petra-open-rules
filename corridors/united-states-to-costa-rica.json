@@ -39,7 +39,13 @@
       "title": "Microchip recorded",
       "severity": "recommended",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
@@ -47,13 +53,25 @@
       "scope_notes": [
         "Applies from 90 days old"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "cr_health_certificate",
       "title": "Costa Rica International Veterinary Certificate (bilingual, APHIS-endorsed)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "distemper",
@@ -61,7 +79,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "adenovirus",
@@ -69,7 +93,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parvovirus",
@@ -77,7 +107,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parainfluenza",
@@ -86,7 +122,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "leptospirosis",
@@ -94,7 +136,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "feline_herpesvirus",
@@ -102,7 +150,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "calicivirus",
@@ -110,7 +164,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "panleukopenia",
@@ -118,7 +178,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -127,21 +193,36 @@
       "detail": "The destination-specific International Veterinary Certificate may be in Spanish or English (the APHIS form is bilingual); a non-Spanish/English certificate would need an official certified Spanish translation. It is completed by a USDA-accredited vet and endorsed by USDA APHIS. No notary, no Costa Rican consular stamp, and no state Secretary of State apostille is required for the ordinary accompanied-pet route.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Internal + external parasite treatment within 15 days",
       "detail": "A licensed vet administers internal and external antiparasitic treatment within 15 days before certificate issuance, recorded on the certificate (date, brand, lot, active ingredient). Petra has no separate evidence model for this treatment; confirm it from the certificate before travel.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Visual inspection on arrival at SJO",
       "detail": "The SENASA officer performs a documentation check + visual inspection at Juan Santamaría; entry is refused for fresh or healing wounds or external parasites. No pre-arrival permit or quarantine for compliant accompanied pets.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -195,7 +276,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-costa-rica.json",
   "corrections": {
     "address": "stefan@petraverify.id",

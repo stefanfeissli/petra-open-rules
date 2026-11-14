@@ -39,25 +39,49 @@
       "key": "microchip",
       "title": "Microchip recorded (ISO 11784/11785)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies_wait",
       "title": "21-day wait after a primary or lapsed rabies vaccination",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "favn_titer",
       "title": "Rabies antibody titre (RNATT ≥ 0.5 IU/mL), ≤12 months before travel",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "distemper",
@@ -65,7 +89,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parvovirus",
@@ -73,7 +103,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "adenovirus",
@@ -81,7 +117,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "leptospirosis",
@@ -89,7 +131,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "panleukopenia",
@@ -97,7 +145,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "feline_herpesvirus",
@@ -105,7 +159,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "calicivirus",
@@ -113,13 +173,25 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "ae_health_certificate",
       "title": "MOCCAE Model Veterinary Health Certificate (USDA-VS endorsed, ≤10 days)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -128,28 +200,48 @@
       "detail": "Online via the ministry portal before arrival. Pay the fee (AED 200 per head) and keep the permit (copy presented on arrival). The permit is valid for 90 days — apply close enough to travel that it hasn't lapsed, but early enough to clear before departure. Pets fly as manifested cargo.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Animals must be at least 15 weeks old",
       "detail": "Younger pets are refused. (This is 15 weeks, not 4 months — the rabies vaccination + 21-day titre timing pushes the practical minimum higher.) Confirm your pet meets this age before travel; Petra does not block readiness on age itself.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Parasite treatment within 14 days, recorded on the certificate",
       "detail": "Internal + external parasite treatment within 14 days of travel, noted on the MOCCAE health certificate.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Annual import quota: max 2 pets",
       "detail": "MOCCAE limits non-commercial pet imports to 2 animals per person per year. Confirm this trip doesn't exceed your annual quota; Petra does not track imports across trips or owners.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Check the banned-breeds list",
@@ -158,21 +250,36 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "No rabies booster given after the titre was drawn",
       "detail": "If a rabies booster was given after the RNATT titre sample was drawn, the titre is invalidated and must be re-drawn (≥365-day validity applies only while the vaccination that was current at draw time remains current, with no intervening booster). Confirm no booster has been given since the titre sample; Petra does not track vaccination-vs-titre sequencing after the fact.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "No mixing with other pet animals in transit",
       "detail": "If the shipment transits through another country, it must not mix with other pet animals during transit. Confirm your routing meets this; Petra does not track transit routing or mixing.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Bengal/Serval cats: fifth-generation pedigree certificate",
@@ -181,7 +288,12 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -245,7 +357,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-united-arab-emirates.json",
   "corrections": {
     "address": "stefan@petraverify.id",

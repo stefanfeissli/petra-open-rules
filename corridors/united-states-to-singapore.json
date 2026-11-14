@@ -30,19 +30,37 @@
       "key": "microchip",
       "title": "Microchip recorded (ISO 11784/11785)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid (on/after the microchip)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "favn_titer",
       "title": "Rabies antibody titre (FAVN/RNAT ≥ 0.5 IU/mL), 90-365 days before export",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "distemper",
@@ -50,7 +68,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "adenovirus",
@@ -58,7 +82,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parvovirus",
@@ -66,7 +96,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "feline_herpesvirus",
@@ -74,7 +110,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "calicivirus",
@@ -82,7 +124,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "panleukopenia",
@@ -90,13 +138,25 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "sg_health_certificate",
       "title": "AVS Veterinary Health Certificate (APHIS-endorsed)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -105,56 +165,96 @@
       "detail": "ISO 11784/11785 compatibility is NOT inferred from the chip number; confirm the chip is ISO-compatible, or that a compatible reader will accompany the animal.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Obtain a Singapore dog or cat licence (via PALS)",
       "detail": "Owners must hold a Singapore dog OR cat licence (through the PALS portal) BEFORE applying for the import licence. Applies to both dogs and cats.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Apply for the AVS import licence",
       "detail": "Apply online (S$50/100, ~90-day validity) before travel. Present it during airline check-in. Without it the pet is refused entry or quarantined.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Obtain a Customs In-Payment / GST permit before arrival",
       "detail": "A Singapore Customs In-Payment (GST) permit must be obtained before the pet arrives. Mandatory part of the AVS import process.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Book a border-inspection appointment (≥5 days before arrival)",
       "detail": "Book the AVS border inspection, generally at least 5 days before arrival. Arriving without an appointment risks an additional fee and delay.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Post-arrival quarantine is conditional",
       "detail": "A Schedule II personal pet can AVOID post-arrival quarantine if it enters Singapore within 5 days of its owner AND has lived continuously with the owner at the same residential address for more than 6 months before import. Otherwise a minimum 10-day home quarantine applies (commercial-licence pets serve ≥10 days at the Animal Quarantine Centre). The waiver itself is authority-controlled and cannot be self-attested; confirm the quarantine arrangement.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Airline captain's declaration (Schedule I/II)",
       "detail": "Schedule I and II animals need a signed airline captain's declaration. Confirm with the carrier before travel.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Parasite treatment 2–7 days before export",
       "detail": "Internal + external parasite treatment administered 2 to 7 days before export, recorded on the health certificate. Owner/vet attestation of the window; the date is attested, not independently verified by Petra.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -206,7 +306,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-singapore.json",
   "corrections": {
     "address": "stefan@petraverify.id",

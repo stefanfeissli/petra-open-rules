@@ -39,13 +39,25 @@
       "title": "Microchip recorded",
       "severity": "recommended",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "distemper",
@@ -53,7 +65,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "adenovirus",
@@ -61,7 +79,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parvovirus",
@@ -69,7 +93,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "parainfluenza",
@@ -78,7 +108,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "leptospirosis",
@@ -86,7 +122,13 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "feline_herpesvirus",
@@ -94,7 +136,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "calicivirus",
@@ -102,7 +150,13 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "panleukopenia",
@@ -110,13 +164,25 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "pa_health_certificate",
       "title": "Panama international health certificate (APHIS-endorsed + legalized)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -125,49 +191,84 @@
       "detail": "Sent 3 to 5 business days before arrival to cam@minsa.gob.pa (MINSA Departamento de Control de Zoonosis). Mandatory: include the arrival flight/date/time, a scanned copy of the APHIS-endorsed health certificate, and the vaccination record (cartilla de vacunación). Without it the pet may be held at Tocumen until MINSA processes it.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Internal + external parasite treatment before shipment",
       "detail": "A licensed vet administers and records internal and external antiparasitic treatment before export, declared on the certificate. Petra has no separate evidence model for this treatment; confirm it from the certificate before travel.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Pet at least 4 months old; first rabies dose ≥30 days before arrival",
       "detail": "Panama requires rabies vaccination from 3 months of age with at least 30 days elapsed since the FIRST dose, so animals under about 4 months of age are not allowed into the country. The engine does not model age or first-vs-booster dose, so confirm the age and first-dose timing before travel.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Legalize the APHIS-endorsed certificate (consular stamp or apostille, within 30 days)",
       "detail": "After APHIS endorsement, the certificate is legalized for Panama EITHER by a Panamanian consulate stamp/signature OR by apostille (Cancillería, or the US Department of State Office of Authentications where no Panamanian consulate serves your state), within 30 days of issuance. This legalization is captured as the certificate's authentication step in Petra's external-document check; carry the original legalized certificate.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Plan the airline-validity window",
       "detail": "Airlines and Panamanian authorities expect the APHIS endorsement and the 30-day legalization window to still be valid on the day of travel. Coordinate the endorsement, legalization and travel date so the certificate isn't too fresh OR too stale.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "On-arrival processing fees",
       "detail": "MIDA and MINSA charge processing and veterinary-inspection fees per animal at Tocumen, typically payable in cash; a strict home quarantine, if required, carries an additional charge. Amounts change: confirm the current fees before travel and bring cash.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Home quarantine on arrival if required",
       "detail": "MINSA may impose a home quarantine at the owner's Panama residence; duration and any strict-quarantine charge are set per-arrival. Plan accommodation accordingly: a Panama address is generally required for the Solicitud de Ingreso.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -218,7 +319,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-panama.json",
   "corrections": {
     "address": "stefan@petraverify.id",

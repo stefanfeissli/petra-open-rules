@@ -39,25 +39,55 @@
       "key": "microchip",
       "title": "Microchip recorded (ISO 11784/11785)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination (≥2 lifetime doses)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+        "https://dab.hawaii.gov/ai/files/2019/08/AQS-39_8.21.2019.pdf"
+      ]
     },
     {
       "key": "favn_titer",
       "title": "Rabies antibody titer (OIE-FAVN)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://dab.hawaii.gov/ai/aqs/aqs-info/",
+        "https://dab.hawaii.gov/ai/files/2019/08/AQS-39_8.21.2019.pdf"
+      ]
     },
     {
       "key": "identity",
       "title": "Identity attestation issued",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "manual_checklist": [
@@ -66,7 +96,12 @@
       "detail": "All animals requiring a CVI (Certificate of Veterinary Inspection) for importation into Hawaii must have a certifying statement: \"All animals were inspected and found free of evidence of New World Screwworm infestation.\"",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Apply online via HIPOP",
@@ -74,49 +109,84 @@
       "required": true,
       "url": "https://hipop.ais.hawaii.gov/",
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Document deadline depends on your arrival airport",
       "detail": "Landing at Honolulu: your HIPOP application and documents must be submitted no less than 10 days before your pet arrives in Hawai'i to qualify for the 5-Day-Or-Less or Airport Release programs (late submission means a higher fee — $244 instead of $185 for airport release, $130 instead of $98 for re-entry). Landing at Kona, Kahului, or Līhu'e (neighbor islands): submit 30 days or more ahead of your pet's planned arrival instead.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Two rabies vaccinations in the pet's lifetime",
       "detail": "Hawaii requires original certificates for 2 rabies vaccinations in the pet's lifetime, AT LEAST 30 DAYS APART, the most recent given more than 30 days before arrival and still in-date (Petra's structured check enforces the count, validity, and the most-recent-dose's 30-day-before-arrival timing, but not the gap BETWEEN the two doses — confirm that from your vet's records). Each certificate must be signed in ink by a licensed veterinarian, and must list: vaccine name, lot or serial number, booster interval, vaccination date, and vaccine lot expiration date.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "OIE-FAVN titer timing: arrive 30 days–36 months after the lab receives the sample",
       "detail": "The clock starts the day the approved lab RECEIVES the blood sample, not the draw or result date. Too early (under 30 days) or too late (over 36 months) means quarantine.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Microchip must be implanted before (or at) the FAVN blood draw",
       "detail": "DAB's own veterinarian guidance requires the electronic microchip to be implanted prior to or when blood is drawn for the OIE-FAVN test, with the microchip number recorded on the lab submission form — a lab will not run the test without it. Petra enforces this ordering structurally when the microchip's implant date is on file.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Health certificate within 14 days of arrival",
       "detail": "A licensed vet must examine the pet and issue an ORIGINAL health certificate no more than 14 days before arrival — a photocopy is not acceptable. This is mandatory for the direct-release program.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Tick treatment within 14 days of arrival, recorded on the certificate",
       "detail": "A tick treatment must be given within 14 days of arrival and recorded on the health certificate. Revolution® is NOT an acceptable product for this treatment.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -188,7 +258,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-hawaii.json",
   "corrections": {
     "address": "stefan@petraverify.id",

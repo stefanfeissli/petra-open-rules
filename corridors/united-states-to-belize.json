@@ -40,25 +40,55 @@
       "title": "Microchip recorded",
       "severity": "recommended",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "key": "rabies",
       "title": "Rabies vaccination valid",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "rabies_wait",
       "title": "28-day wait after a first rabies dose; no dose before 12 weeks old",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "bz_health_certificate",
       "title": "Veterinary health certificate (within 14 days; APHIS endorsement NOT required)",
       "scope_notes": [],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "distemper",
@@ -66,7 +96,15 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "adenovirus",
@@ -74,7 +112,15 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "parvovirus",
@@ -82,7 +128,15 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "leptospirosis",
@@ -90,7 +144,15 @@
       "scope_notes": [
         "Applies to: dog"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "feline_herpesvirus",
@@ -98,7 +160,15 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "calicivirus",
@@ -106,7 +176,15 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     },
     {
       "key": "panleukopenia",
@@ -114,7 +192,15 @@
       "scope_notes": [
         "Applies to: cat"
       ],
-      "class": "interpretation"
+      "supersedes": null,
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": [
+        "https://baha.org.bz/wp-content/uploads/2024/04/Import-conditions-DOGS-AND-CATS-June-2023.pdf"
+      ]
     }
   ],
   "manual_checklist": [
@@ -123,56 +209,96 @@
       "detail": "A BAHA import permit (around BZ$50, valid ~90 days, up to ~10 pets) must be obtained before travel. Your vet completes the permit form and it is sent to the Belize Agriculture Department for issuance. Without the permit BAHA can refuse entry.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Notify BAHA at least 2 days before arrival",
       "detail": "Email BAHA with the arrival date, time, and flight number so a veterinary officer is present at the port of entry. This advance notice is mandatory; without it the pet may be refused or held while BAHA arranges inspection.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Puppies: first rabies dose not before 12 weeks (84 days) old",
       "detail": "BAHA's Import Conditions document (item D): puppies must NOT be vaccinated against rabies before they are 3 months (12 weeks / 84 days) old, and the rabies certificate must include the puppy's age or date of birth. Petra's rabies_wait requirement enforces this structurally when the dose's date and the pet's date of birth are both on file.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Adult dogs 15 months+: booster-history exemption from the 28-day wait",
       "detail": "BAHA's Import Conditions document (item E): a dog 15 months or older may travel less than 4 weeks after a booster vaccination if accompanied by proof of a documented rabies-vaccination history (at least one dose given after 3 months old, plus one current booster). Without that documented history, the ordinary ≥28-day first-time wait applies. Petra's rabies_wait requirement waives the wait automatically when a qualifying prior dose is on file (evidenced continuity).",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Inspection fee on arrival",
       "detail": "BAHA collects an inspection fee in cash at the port of entry. The amount changes — confirm the current fee with BAHA before travel and bring local cash.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "Endoparasite treatment within 30 days",
       "detail": "Proof of internal (and external) anti-parasitic treatment within 30 days of travel should accompany the health certificate and vaccination records.",
       "required": true,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "First rabies dose ≥28 days before travel",
       "detail": "If this is the pet's first rabies vaccination, it must be given at least 28 days before travel — Petra's rabies_wait requirement enforces this structurally (waived automatically for a documented booster with evidenced continuity).",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     },
     {
       "title": "If your pet is under 4 months old: expect home quarantine",
       "detail": "Pets less than 4 months can be brought in but are held in home quarantine until rabies can be administered, plus 30 days after.",
       "required": false,
       "scope_notes": [],
-      "class": "interpretation"
+      "class": "interpretation",
+      "effective_from": null,
+      "effective_to": null,
+      "ambiguity": null,
+      "applicability_assumptions": null,
+      "sources": []
     }
   ],
   "sources": [
@@ -237,7 +363,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "license_scope": "This licence (CC BY 4.0) covers Petra's own compilation, schema, and authored content in this file — the structure, the tier classification, and any Petra-authored summary text. It does NOT cover, and Petra does not license: the linked primary-source documents themselves (each \"sources\" entry links to its issuing authority's own material, which remains that authority's), third-party marks (destination authority names/marks are used descriptively, not as an endorsement), or quoted third-party source text reproduced for citation. Those remain their owners' property, under whatever terms the owner publishes them.",
   "no_warranty": "Provided \"as is\", without warranty of any kind, express or implied, including without warranty of accuracy, completeness, or fitness for a particular purpose. This file is Petra's own compilation and interpretation of publicly available material; it is not legal advice and is not a substitute for confirming current requirements directly with the destination authority before travel.",
-  "version": "d4652bb9f24da7fe850babac6140b377a3767daf",
+  "version": "9d99bdd0587fd9f9e9cbe825668e51d817dbe376",
   "history_url": "https://github.com/stefanfeissli/petra-open-rules/commits/main/corridors/united-states-to-belize.json",
   "corrections": {
     "address": "stefan@petraverify.id",
